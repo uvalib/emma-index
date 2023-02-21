@@ -17,6 +17,7 @@ because this work was wholly funded by the
 this repository has been created to provide public visibility to this
 non-proprietary work.
 
+
 ## Search Engine
 
 The search engine developed by Benetech runs on Amazon OpenSearch (a fork of
@@ -24,29 +25,33 @@ Elasticsearch) and accessed via APIs for read and write access to the index.
 Work products relating to the Mellon-funded search engine includes the source
 code for those APIs and the configuration for the search engine.
 
+
 ### Federated Index Search API
+
+- [ ] **_TODO_**
 
 This is the software that implements the
 [Federated Search API](https://app.swaggerhub.com/apis/bus/emma-federated-search-api/0.0.5),
 used by the EMMA service to allow EMMA users to query the index.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
 
 ### Federated Index Ingest API
+
+- [ ] **_TODO_**
 
 This is the software that implements the
 [Federated Ingest API](https://app.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5),
 used by the EMMA service to allow submissions to the EMMA repository to be
 added to the federated index in real-time.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
 
 ### Elasticsearch Configuration
+
+- [ ] **_TODO_**
 
 These are the configuration file(s) which define the supported search types and
 define the contents of search result records.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
 
 ## Index Construction
 
@@ -58,30 +63,31 @@ each member repository and transform it into Elasticsearch updates.
 
 ### Benetech Index Workflow
 
+- [ ] **_TODO_**
+
 This is source code for the software which retrieves metadata for remediated
 Bookshare items which are presented in the EMMA index.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
 
 ### Internet Archive Index Workflow
+
+- [ ] **_TODO_**
 
 This is source code for the software which retrieves metadata for remediated
 Internet Archive items which are presented in the EMMA index.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
-
 
 ### HathiTrust Index Workflow
+
+- [ ] **_TODO_**
 
 This is source code for the software which retrieves metadata for remediated
 HathiTrust items which are presented in the EMMA index.
 
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
-
 
 ### Index Construction Workflow
 
+- [ ] **_TODO_**
+
 This is source code for all other software that supports the generation and
 maintenance of the federated index.
-
-<input type="checkbox">&nbsp;</input> <strong style="color:red">TODO</strong>
