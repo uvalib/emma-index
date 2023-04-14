@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+pytest = "*"
+autopep8 = "*"
+behave = "*"
+
+[packages]
+requests = "*"
+requests-oauthlib = "*"
+boto3 = "*"
+requests-aws4auth = "*"
+
+[requires]
+python_version = "3.8"

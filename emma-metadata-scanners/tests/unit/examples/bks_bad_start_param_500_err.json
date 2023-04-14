@@ -1,0 +1,7 @@
+{
+    "key": "INTERNAL_SERVER_ERROR",
+    "messages": [
+        "Internal server error. A Bookshare administrator has been notified."
+    ],
+    "links": []
+}

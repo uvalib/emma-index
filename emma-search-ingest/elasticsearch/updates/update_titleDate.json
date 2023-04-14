@@ -1,0 +1,19 @@
+# Example: Populating empty title sort definitions from existing title definitions
+
+POST /emma-federated-index-qa/_update_by_query
+{
+  "script": {
+    "lang": "painless",
+    "source": """
+      ctx._source.emma_titleSort = /[^\p{Alnum} ] /.matcher(ctx._source.dc_title).replaceAll('').toLowerCase();
+      if (ctx.emma_indexLastUpdated != null) {
+              ctx.emma_dateSort = ctx.emma_indexLastUpdated.substring(0,19);
+          }
+          if (ctx.dcterms_dateAccepted != null) {
+              ctx.emma_dateSort = ctx.dcterms_dateAccepted;
+          }
+          if (ctx.emma_lastRemediationDate != null) {
+              ctx.emma_dateSort = ctx.emma_lastRemediationDate;
+    """
+  }
+}

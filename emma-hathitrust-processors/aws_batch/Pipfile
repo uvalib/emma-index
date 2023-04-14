@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+pytest = "*"
+requests-mock = "*"
+autopep8 = "*"
+moto = "*"
+
+[packages]
+requests = "*"
+boto3 = "*"
+jsonpath-ng = "*"
+jsonschema = "*"
+
+[requires]
+python_version = "3.7"

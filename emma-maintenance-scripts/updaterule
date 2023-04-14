@@ -1,0 +1,9 @@
+
+{
+    "Name": "emma-dev-scan-every-60-minutes",
+    "Description": "Go off every hour",
+    "State": "ENABLED",
+    "ScheduleExpression": "rate(1 hour)",
+    "EventBusName": "default"
+}
+

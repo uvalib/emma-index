@@ -1,0 +1,390 @@
+openapi: 3.0.0
+info:
+  title: EMMA Federated Index Common Domain
+  description: Schemas and properties shared among the EMMA Federated Index APIs
+  version: 0.0.4
+  contact:
+    email: bookshare-developers@benetech.org
+  license:
+    name: TBD
+components:
+  schemas:
+    IngestionRecord:
+      title: Metadata ingestion schema for EMMA Federated Search Index
+      description:
+        Schema for JSON metadata records to be submitted to the EMMA Federated Search
+        Index ingestion service.
+      type: object
+      allOf:
+        - $ref: "#/components/schemas/MetadataCommonRecord"
+      required:
+        - emma_repository
+        - emma_repositoryRecordId
+        - emma_retrievalLink
+        - dc_title
+        - dc_format
+    MetadataRecord:
+      title: Metadata record schema for EMMA Federated Search Index
+      description:
+        Schema for JSON documents which are retrieved from the EMMA Federated Search
+        Index ingestion service.
+      type: object
+      allOf:
+        - properties:
+            emma_recordId:
+              $ref: "#/components/schemas/EmmaRecordIdentifier"
+            emma_titleId:
+              description:
+                The unique identifier for a work within the EMMA Federated
+                Search Index
+              type: string
+        - $ref: "#/components/schemas/MetadataCommonRecord"
+        - required:
+            - emma_recordId
+    IdentifierRecord:
+      title: Metadata to uniquely identify a record in the EMMA Federated Search Index
+      description: Schema to identify a single metadata record in the EMMA Federated Search index, for deleting or retrieval, for example.
+      type: object
+      oneOf:
+        - properties:
+            emma_recordId:
+              $ref: "#/components/schemas/EmmaRecordIdentifier"
+          required:
+            - emma_recordId
+        - properties:
+            emma_repository:
+              $ref: "#/components/schemas/EmmaRepository"
+            emma_repositoryRecordId:
+              $ref: "#/components/schemas/EmmaRepositoryRecordId"
+            emma_formatVersion:
+              $ref: "#/components/schemas/EmmaFormatVersion"
+            dc_format:
+              $ref: "#/components/schemas/DublinCoreFormat"
+          required:
+            - emma_repository
+            - emma_repositoryRecordId
+            - dc_format
+    MetadataCommonRecord:
+      type: object
+      properties:
+        emma_repository:
+          $ref: "#/components/schemas/EmmaRepository"
+        emma_collection:
+          description: A set of works within a repository
+          type: array
+          items:
+            type: string
+        emma_repositoryRecordId:
+          $ref: "#/components/schemas/EmmaRepositoryRecordId"
+        emma_retrievalLink:
+          description: Link to download an actual work from a repository
+          type: string
+          format: uri
+        emma_webPageLink:
+          description: Link to a web page which describes a work from a repository
+          type: string
+          format: uri
+        emma_lastRemediationDate:
+          description: Last date that this work was remediated
+          type: string
+          format: date
+        emma_sortDate:
+          description: Last date that the work or this index was updated, guaranteeing a non-null value.
+            If available, this defaults to the same value as last remediation date.  If not available,
+            it defaults to date accepted.  If date accepted is not available, it defaults to the date
+            that the record was last updated in this index.
+            The value of sort date is determined at indexing time, and does not need to be sent
+            through the ingestion API.
+          type: string
+          format: date
+        emma_repositoryUpdateDate:
+            description: Date that this metadata was last updated in the source repository
+            type: string
+            format: date
+        emma_lastRemediationNote:
+          description: Note regarding the last remediation on this work
+          type: string
+        emma_formatVersion:
+          $ref: "#/components/schemas/EmmaFormatVersion"
+        emma_formatFeature:
+          description: Feature of the format used by this instance of this work
+          type: array
+          items:
+            type: string
+            enum:
+              - tts
+              - human
+              - grade1
+              - grade2
+              - nemeth
+              - technical
+              - ueb
+              - ebae
+              - literary
+              - music
+        dc_title:
+          description: The
+            [title](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/)
+            of the work
+          type: string
+        dc_creator:
+          description: The
+            [creators](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/)
+            of the work
+          type: array
+          items:
+            type: string
+        dc_identifier:
+          description: A standard
+            [identifier](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/)
+            for a work
+          type: array
+          items:
+            $ref: "#/components/schemas/PublicationIdentifier"
+        dc_publisher:
+          description: The name of the
+            [publisher](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/publisher/)
+          type: string
+        dc_relation:
+          description: List of standard
+            [identifiers](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/relation/)
+            for related works
+          type: array
+          items:
+            $ref: "#/components/schemas/PublicationIdentifier"
+        dc_language:
+          type: array
+          items:
+            description: Code for the
+              [language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/language/)
+              of the work, using the [ISO 639-2 3-character code](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+            type: string
+            pattern: "^[a-z]{3}$"
+        dc_rights:
+          description: Ownership-based [usage
+            rights](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/rights/)
+            on the work
+          type: string
+          enum:
+            - publicDomain
+            - creativeCommons
+            - copyright
+            - other
+        dc_description:
+          description:
+           "[Description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/) of the work; typically a synopsis"
+          type: string
+        dc_format:
+          $ref: "#/components/schemas/DublinCoreFormat"
+        dc_type:
+          description:
+            "[Type](https://www.dublincore.org/specifications/dublin-core/dcmi-\
+            terms/terms/type/) of this instance of the work"
+          type: string
+          enum:
+            - text
+            - sound
+            - collection
+            - dataset
+            - event
+            - image
+            - interactiveResource
+            - service
+            - physicalObject
+            - stillImage
+            - movingImage
+        dc_subject:
+          description: A
+            [subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/subject/)
+            describing the work
+          type: array
+          items:
+            type: string
+        dcterms_dateAccepted:
+          description:
+            "[Date](https://www.dublincore.org/specifications/dublin-core/dcmi-\
+            terms/terms/dateAccepted/) that the work was accepted into the
+            repository, using
+            [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            format (YYYY-MM-DD)"
+          type: string
+          format: date
+        dcterms_dateCopyright:
+          description: The 4-digit year that the work was copyrighted
+          type: string
+          pattern: "^[0-9]{4}$"
+        s_accessibilityFeature:
+          description:
+            Accessibility features of this instance derived from to the
+            schema.org [Accessibility Feature
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          type: array
+          items:
+            type: string
+            enum:
+              - alternativeText
+              - annotations
+              - audioDescription
+              - bookmarks
+              - braille
+              - captions
+              - ChemML
+              - describedMath
+              - displayTransformability
+              - displayTransformability/background-color
+              - displayTransformability/color
+              - displayTransformability/font-height
+              - displayTransformability/font-size
+              - displayTransformability/line-height
+              - displayTransformability/word-spacing
+              - highContrastAudio
+              - highContrastDisplay
+              - index
+              - largePrint
+              - latex
+              - longDescription
+              - MathML
+              - physicalObject
+              - printPageNumbers
+              - readingOrder
+              - rubyAnnotations
+              - signLanguage
+              - sound
+              - stillImage
+              - structuralNavigation
+              - synchronizedAudioText
+              - tableOfContents
+              - tactileGraphic
+              - tactileObject
+              - taggedPDF
+              - timingControl
+              - transcript
+              - ttsMarkup
+              - unlocked
+        s_accessibilityControl:
+          description:
+            Accessibility controls of this instance derived from to the
+            schema.org [Accessibility Control
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          type: array
+          items:
+            type: string
+            enum:
+              - fullAudioControl
+              - fullKeyboardControl
+              - fullMouseControl
+              - fullTouchControl
+              - fullVideoControl
+              - fullSwitchControl
+              - fullVoiceControl
+        s_accessibilityHazard:
+          description:
+            Accessibility hazards of this instance as derived from to the
+            schema.org [Accessibility Hazard
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          type: array
+          items:
+            type: string
+            enum:
+              - flashing
+              - noFlashingHazard
+              - motionSimulation
+              - noMotionSimulationHazard
+              - sound
+              - noSoundHazard
+        s_accessibilityAPI:
+          description:
+            Accessibility APIs of this instance as derived from to the
+            schema.org [Accessibility API
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          type: array
+          items:
+            type: string
+            enum:
+              - ARIA
+        s_accessibilitySummary:
+          description:
+            Human-readable summary of accessibility features or deficiencies of
+            this instance of the work as described in the schema.org
+            [Accessibility Summary
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29)
+          type: string
+        s_accessMode:
+          description:
+            How the user can perceive this instance of the work as described in
+            the schema.org [Access Mode
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          type: array
+          items:
+            type: string
+            enum:
+              - auditory
+              - chartOnVisual
+              - chemOnVisual
+              - colorDependent
+              - diagramOnVisual
+              - mathOnVisual
+              - musicOnVisual
+              - tactile
+              - textOnVisual
+              - textual
+              - visual
+        s_accessModeSufficient:
+          description:
+            A list of single or combined access modes that are sufficient to
+            understand all the intellectual content of a resource as described
+            in the schema.org [Access Mode Sufficient
+            specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29)
+          type: array
+          items:
+            type: string
+            enum:
+              - auditory
+              - tactile
+              - textual
+              - visual
+    EmmaRecordIdentifier:
+      title: EMMA metadata record identifier
+      description: The unique identifier for a metadata record within the EMMA
+        Federated Search Index.  Not guaranteed to have any particular format.
+      type: string
+    EmmaRepository:
+      description: Identifier for a repository
+      type: string
+      enum:
+        - bookshare
+        - hathiTrust
+        - internetArchive
+        - emma
+    EmmaRepositoryRecordId:
+      description: The unique identifier for a work within a repository
+      type: string
+    EmmaFormatVersion:
+      description: Version of the format used by this instance of this work
+      type: string
+    DublinCoreFormat:
+      description:
+        "[Format](https://www.dublincore.org/specifications/dublin-core/dcm\
+        i-terms/terms/format/) of this instance of the work."
+      type: string
+      enum:
+        - brf
+        - daisy
+        - daisyAudio
+        - epub
+        - braille
+        - pdf
+        - grayscalePdf
+        - word
+        - tactile
+        - kurzweil
+        - rtf
+    PublicationIdentifier:
+      title: Publication Identifier
+      description:
+        The lowercase scheme and identifier for a publication.  For example, isbn:97800110001.
+        Only alphanumeric characters are accepted. No spaces or other symbols are accepted.
+        Dashes will be stripped from the stored identifier.
+        Accepted schemes are ISBN, ISSN, LCCN, UPC, and OCLC.
+      type: string
+      pattern: "^((isbn|upc|issn):[0-9Xx\\-]{8,17}|lccn:[a-zA-Z0-9]{1,12}|oclc:[0-9]{1,14})$"

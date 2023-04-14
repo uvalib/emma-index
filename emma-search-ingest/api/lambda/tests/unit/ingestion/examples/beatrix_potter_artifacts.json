@@ -1,0 +1,142 @@
+[
+    {
+        "emma_repository": "bookshare",
+        "emma_collection": ["bookshare"],
+        "emma_repositoryRecordId": "1291342",
+        "dc_title": "A Collection of Beatrix Potter Stories",
+        "dc_identifier": [
+            "isbn:9781442938878"
+        ],
+        "dc_creator": [
+            "Beatrix Potter"
+        ],
+        "dc_subject": [
+            "Literature and Fiction"
+        ],
+        "dc_publisher": "ReadHowYouWant.com, Limited",
+        "dc_rights": "publicDomain",
+        "dcterms_dateAccepted": "2016-06-28",
+        "dc_language": ["eng"],
+        "dc_format": "word",
+        "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/1291342/DOCX"
+    },
+    {
+        "emma_repository": "bookshare",
+        "emma_collection": ["bookshare"],
+        "emma_repositoryRecordId": "1291342",
+        "dc_title": "A Collection of Beatrix Potter Stories",
+        "dc_identifier": [
+            "isbn:9781442938878"
+        ],
+        "dc_creator": [
+            "Beatrix Potter"
+        ],
+        "dc_subject": [
+            "Literature and Fiction"
+        ],
+        "dc_publisher": "ReadHowYouWant.com, Limited",
+        "dc_rights": "publicDomain",
+        "dcterms_dateAccepted": "2016-06-28",
+        "dc_language": ["eng"],
+        "dc_format": "braille",
+        "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/1291342/BRF",
+        "s_accessibilityFeature": [
+            "braille"
+        ],
+        "emma_formatFeature": [
+            "grade1",
+            "grade2"
+        ]
+    },
+    {
+        "emma_repository": "bookshare",
+        "emma_collection": ["bookshare"],
+        "emma_repositoryRecordId": "1291342",
+        "dc_title": "A Collection of Beatrix Potter Stories",
+        "dc_identifier": [
+            "isbn:9781442938878"
+        ],
+        "dc_creator": [
+            "Beatrix Potter"
+        ],
+        "dc_subject": [
+            "Literature and Fiction"
+        ],
+        "dc_publisher": "ReadHowYouWant.com, Limited",
+        "dc_rights": "publicDomain",
+        "dcterms_dateAccepted": "2016-06-28",
+        "dc_language": ["eng"],
+        "dc_format": "epub",
+        "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/1291342/EPUB3",
+        "emma_formatVersion": "3.0"
+    },
+    {
+        "emma_repository": "bookshare",
+        "emma_collection": ["bookshare"],
+        "emma_repositoryRecordId": "1291342",
+        "dc_title": "A Collection of Beatrix Potter Stories",
+        "dc_identifier": [
+            "isbn:9781442938878"
+        ],
+        "dc_creator": [
+            "Beatrix Potter"
+        ],
+        "dc_subject": [
+            "Literature and Fiction"
+        ],
+        "dc_publisher": "ReadHowYouWant.com, Limited",
+        "dc_rights": "publicDomain",
+        "dcterms_dateAccepted": "2016-06-28",
+        "dc_language": ["eng"],
+        "dc_format": "daisy",
+        "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/1291342/DAISY",
+        "s_accessibilityFeature": [
+            "displayTransformability/font-size",
+            "displayTransformability/color",
+            "displayTransformability/background-color",
+            "bookmarks",
+            "readingOrder",
+            "structuralNavigation"
+        ],
+        "s_accessibilityControl": [
+            "fullKeyboardControl",
+            "fullMouseControl"
+        ],
+        "s_accessibilityHazard": [
+            "noFlashingHazard",
+            "noMotionSimulationHazard",
+            "noSoundHazard"
+        ]
+    },
+    {
+        "emma_repository": "bookshare",
+        "emma_collection": ["bookshare"],
+        "emma_repositoryRecordId": "1291342",
+        "dc_title": "A Collection of Beatrix Potter Stories",
+        "dc_identifier": [
+            "isbn:9781442938878"
+        ],
+        "dc_creator": [
+            "Beatrix Potter"
+        ],
+        "dc_subject": [
+            "Literature and Fiction"
+        ],
+        "dc_publisher": "ReadHowYouWant.com, Limited",
+        "dc_rights": "publicDomain",
+        "dcterms_dateAccepted": "2016-06-28",
+        "dc_language": ["eng"],
+        "dc_format": "daisyAudio",
+        "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/1291342/DAISY_AUDIO",
+        "emma_formatVersion": "1",
+        "s_accessibilityFeature": [
+            "sound"
+        ],
+        "s_accessMode": [
+            "auditory"
+        ],
+        "s_accessModeSufficient": [
+            "auditory"
+        ]
+    }
+]

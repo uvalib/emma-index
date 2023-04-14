@@ -1,0 +1,351 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 116,
+        "params": {
+            "query": "_exists_:indexdate AND collection:(trent_university ) AND mediatype:(texts )",
+            "qin": "_exists_:indexdate AND collection:(trent_university) AND mediatype:(texts)",
+            "fields": "indexdate,backup_location,btih,call_number,collection,contributor,coverage,creator,date,description,downloads,external-identifier,foldoutcount,format,genre,headerImage,identifier,imagecount,indexflag,item_size,language,licenseurl,mediatype,members,month,name,noindex,num_reviews,oai_updatedate,publicdate,publisher,related-external-id,reviewdate,rights,scanningcentre,source,stripped_tags,subject,title,type,volume,week,year",
+            "wt": "json",
+            "sort": "indexdate desc",
+            "rows": "5",
+            "start": 0
+        }
+    },
+    "response": {
+        "numFound": 160597,
+        "start": 0,
+        "docs": [
+            {
+                "collection": [
+                    "inlibrary",
+                    "printdisabled",
+                    "trent_university",
+                    "internetarchivebooks",
+                    "fav-nanimarcus",
+                    "drakeuniversity-ol",
+                    "mitlibraries-ol",
+                    "universityofoklahoma-ol"
+                ],
+                "contributor": "Internet Archive",
+                "creator": "Mirsky, Jeannette, 1903-1987",
+                "date": "1977-01-01T00:00:00Z",
+                "description": [
+                    "xiii, 585 p., [8] leaves of plates : 24 cm",
+                    "Includes bibliographical references and index"
+                ],
+                "downloads": 21,
+                "external-identifier": [
+                    "urn:acs6:siraurelsteinarc0000mirs:epub:38dcb04d-940b-4823-8dfc-8d3844e9cfc8",
+                    "urn:acs6:siraurelsteinarc0000mirs:pdf:1b9684ea-9089-4527-ae7f-9cabf6ea550b"
+                ],
+                "foldoutcount": 0,
+                "format": [
+                    "ACS Encrypted EPUB",
+                    "ACS Encrypted PDF",
+                    "Abbyy GZ",
+                    "DjVuTXT",
+                    "Djvu XML",
+                    "Dublin Core",
+                    "Item Tile",
+                    "JPEG Thumb",
+                    "JSON",
+                    "Log",
+                    "MARC",
+                    "MARC Binary",
+                    "Metadata",
+                    "PNG",
+                    "Scandata",
+                    "Single Page Original JP2 Tar",
+                    "Single Page Processed JP2 ZIP",
+                    "Text PDF"
+                ],
+                "identifier": "siraurelsteinarc0000mirs",
+                "imagecount": 626,
+                "indexdate": "2020-01-16T00:17:22Z",
+                "indexflag": [
+                    "index",
+                    "nonoindex"
+                ],
+                "item_size": 1691839469,
+                "language": "eng",
+                "mediatype": "texts",
+                "month": 5,
+                "oai_updatedate": [
+                    "2019-03-13T00:04:23Z",
+                    "2019-03-13T00:04:38Z",
+                    "2020-01-16T00:17:22Z"
+                ],
+                "publicdate": "2019-03-13T00:04:38Z",
+                "publisher": "Chicago : University of Chicago Press",
+                "subject": [
+                    "Stein, Aurel, Sir, 1862-1943",
+                    "Archaeologists -- Asia, Central -- Biography"
+                ],
+                "title": "Sir Aurel Stein, archaeological explorer",
+                "week": 4,
+                "year": "1977"
+            },
+            {
+                "collection": [
+                    "inlibrary",
+                    "printdisabled",
+                    "trent_university",
+                    "internetarchivebooks",
+                    "fav-barry_o_apos_neill",
+                    "fav-rip_thorn",
+                    "fav-anyadzyadko",
+                    "universityofoklahoma-ol"
+                ],
+                "contributor": "Internet Archive",
+                "creator": "Peppiatt, Michael",
+                "date": "2008-01-01T00:00:00Z",
+                "description": [
+                    "VII, 272 p., [16 p. of plates] : 24 cm",
+                    "Includes bibliographical references and index",
+                    "Interviewing Francis Bacon -- Interview one: from a conversation with Francis Bacon -- Francis Bacon at work -- An obsession with popes -- Francis Bacon in the 1950s -- The sacred and the profane -- Francis Bacon and the School of London -- Interview two: reality conveyed by a lie -- The legacy of genius: Van Gogh and Francis Bacon -- Mr Bacon and Miss Beston -- 'All the pulsations of a person': Francis Bacon's portraits and self-portraits -- Interview three: provoking accidents, prompting chance -- A strange fascination: the friendship between Michel Leiris and Francis Bacon -- Bacon's eyes -- Francis Bacon: chronology"
+                ],
+                "downloads": 9,
+                "external-identifier": [
+                    "urn:acs6:francisbaconstud0000pepp:epub:e40b4e0f-cd00-4859-b249-c4b05b824e49",
+                    "urn:acs6:francisbaconstud0000pepp:pdf:76fbafda-fcc8-4609-aba5-b76198bb7d88"
+                ],
+                "foldoutcount": 0,
+                "format": [
+                    "ACS Encrypted EPUB",
+                    "ACS Encrypted PDF",
+                    "Abbyy GZ",
+                    "DjVuTXT",
+                    "Djvu XML",
+                    "Dublin Core",
+                    "Item Tile",
+                    "JPEG Thumb",
+                    "JSON",
+                    "Log",
+                    "MARC",
+                    "MARC Binary",
+                    "Metadata",
+                    "PNG",
+                    "Scandata",
+                    "Single Page Original JP2 Tar",
+                    "Single Page Processed JP2 ZIP",
+                    "Text PDF"
+                ],
+                "identifier": "francisbaconstud0000pepp",
+                "imagecount": 306,
+                "indexdate": "2020-01-16T00:16:48Z",
+                "indexflag": [
+                    "index",
+                    "nonoindex"
+                ],
+                "item_size": 780256355,
+                "language": "eng",
+                "mediatype": "texts",
+                "month": 2,
+                "oai_updatedate": [
+                    "2019-08-14T03:01:38Z",
+                    "2019-08-14T03:01:50Z",
+                    "2020-01-16T00:16:48Z"
+                ],
+                "publicdate": "2019-08-14T03:01:50Z",
+                "publisher": "New Haven : Yale University Press",
+                "subject": "Bacon, Francis, 1909-1992 -- Criticism and interpretation",
+                "title": "Francis Bacon : studies for a portrait",
+                "week": 0,
+                "year": "2008"
+            },
+            {
+                "collection": [
+                    "inlibrary",
+                    "printdisabled",
+                    "trent_university",
+                    "internetarchivebooks",
+                    "universityofoklahoma-ol"
+                ],
+                "contributor": "Internet Archive",
+                "creator": "Dorling, Daniel",
+                "date": "1996-01-01T00:00:00Z",
+                "description": "69 p. ; 21 cm",
+                "downloads": 1,
+                "external-identifier": [
+                    "urn:acs6:areacartogramsth0000dorl:epub:efc31a2f-ba73-4d9e-89f1-2c845f977a22",
+                    "urn:acs6:areacartogramsth0000dorl:pdf:dfde3fa1-9403-4fc9-89cd-b81216fec2db"
+                ],
+                "foldoutcount": 0,
+                "format": [
+                    "ACS Encrypted EPUB",
+                    "ACS Encrypted PDF",
+                    "Abbyy GZ",
+                    "DjVuTXT",
+                    "Djvu XML",
+                    "Dublin Core",
+                    "Item Tile",
+                    "JPEG Thumb",
+                    "JSON",
+                    "Log",
+                    "MARC",
+                    "MARC Binary",
+                    "Metadata",
+                    "PNG",
+                    "Scandata",
+                    "Single Page Original JP2 Tar",
+                    "Single Page Processed JP2 ZIP",
+                    "Text PDF"
+                ],
+                "identifier": "areacartogramsth0000dorl",
+                "imagecount": 90,
+                "indexdate": "2020-01-16T00:16:48Z",
+                "indexflag": [
+                    "index",
+                    "nonoindex"
+                ],
+                "item_size": 243679646,
+                "language": "eng",
+                "mediatype": "texts",
+                "month": 0,
+                "oai_updatedate": [
+                    "2019-06-03T02:12:26Z",
+                    "2019-06-03T02:12:44Z",
+                    "2020-01-16T00:16:48Z"
+                ],
+                "publicdate": "2019-06-03T02:12:44Z",
+                "publisher": "[Norwich : School of Environmental Sciences, University of East Anglia]",
+                "subject": "Cartography -- Methodology",
+                "title": "Area cartograms : their use and creation",
+                "week": 0,
+                "year": "1996"
+            },
+            {
+                "collection": [
+                    "inlibrary",
+                    "printdisabled",
+                    "trent_university",
+                    "internetarchivebooks",
+                    "fav-allanbranstiter"
+                ],
+                "contributor": "Internet Archive",
+                "creator": "Bailey, Lynn Robison, 1937-",
+                "date": "1970-01-01T00:00:00Z",
+                "description": [
+                    "176 p. : 22 cm",
+                    "Bibliography: p. [159]-167"
+                ],
+                "downloads": 4,
+                "external-identifier": [
+                    "urn:acs6:bosqueredondoame0000bail:epub:e9b24809-8d14-447a-a989-be7f7c82a65e",
+                    "urn:acs6:bosqueredondoame0000bail:pdf:42fb84d6-afb8-4e3b-a9c1-6d1f22a4664f"
+                ],
+                "foldoutcount": 0,
+                "format": [
+                    "ACS Encrypted EPUB",
+                    "ACS Encrypted PDF",
+                    "Abbyy GZ",
+                    "DjVuTXT",
+                    "Djvu XML",
+                    "Dublin Core",
+                    "Item Tile",
+                    "JPEG Thumb",
+                    "JSON",
+                    "Log",
+                    "MARC",
+                    "MARC Binary",
+                    "Metadata",
+                    "PNG",
+                    "Scandata",
+                    "Single Page Original JP2 Tar",
+                    "Single Page Processed JP2 ZIP",
+                    "Text PDF"
+                ],
+                "identifier": "bosqueredondoame0000bail",
+                "imagecount": 202,
+                "indexdate": "2020-01-16T00:16:33Z",
+                "indexflag": [
+                    "index",
+                    "nonoindex"
+                ],
+                "item_size": 567227807,
+                "language": "eng",
+                "mediatype": "texts",
+                "month": 1,
+                "oai_updatedate": [
+                    "2019-08-30T03:41:07Z",
+                    "2019-08-30T03:41:17Z",
+                    "2020-01-16T00:16:33Z"
+                ],
+                "publicdate": "2019-08-30T03:41:17Z",
+                "publisher": "Pasadena, CA., Socio-Technical Books",
+                "subject": [
+                    "Navajo Indians -- History",
+                    "Bosque Redondo Indian Reservation",
+                    "Sumner, Fort, N.M"
+                ],
+                "title": "Bosque Redondo : an American concentration camp",
+                "week": 0,
+                "year": "1970"
+            },
+            {
+                "collection": [
+                    "inlibrary",
+                    "printdisabled",
+                    "trent_university",
+                    "internetarchivebooks"
+                ],
+                "contributor": "Internet Archive",
+                "creator": "Carmean, E. A",
+                "date": "1982-01-01T00:00:00Z",
+                "description": [
+                    "225 p. : 28 cm",
+                    "\"Exhibition dates November 7, 1982-April 24, 1983\"--Verso t.p"
+                ],
+                "downloads": 0,
+                "external-identifier": [
+                    "urn:acs6:davidsmith0000carm:epub:6a54e587-d4f9-4b18-ad76-d0b1ec6237d9",
+                    "urn:acs6:davidsmith0000carm:pdf:d4b921cc-c9b6-4d02-8265-165c13f215f5"
+                ],
+                "foldoutcount": 0,
+                "format": [
+                    "ACS Encrypted EPUB",
+                    "ACS Encrypted PDF",
+                    "Abbyy GZ",
+                    "DjVuTXT",
+                    "Djvu XML",
+                    "Dublin Core",
+                    "Item Tile",
+                    "JPEG Thumb",
+                    "JSON",
+                    "Log",
+                    "MARC",
+                    "MARC Binary",
+                    "Metadata",
+                    "PNG",
+                    "Scandata",
+                    "Single Page Original JP2 Tar",
+                    "Single Page Processed JP2 ZIP",
+                    "Text PDF"
+                ],
+                "identifier": "davidsmith0000carm",
+                "imagecount": 238,
+                "indexdate": "2020-01-16T00:16:09Z",
+                "indexflag": [
+                    "index",
+                    "nonoindex"
+                ],
+                "item_size": 784277220,
+                "language": "eng",
+                "mediatype": "texts",
+                "month": 0,
+                "oai_updatedate": [
+                    "2019-07-18T04:36:38Z",
+                    "2019-07-18T04:36:53Z",
+                    "2020-01-16T00:16:09Z"
+                ],
+                "publicdate": "2019-07-18T04:36:53Z",
+                "publisher": "Washington : National Gallery of Art",
+                "subject": "Smith, David, 1906-1965 -- Exhibitions",
+                "title": "David Smith",
+                "week": 0,
+                "year": "1982"
+            }
+        ]
+    }
+}

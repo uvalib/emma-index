@@ -1,0 +1,3820 @@
+{
+  "took" : 21,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 2189,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-1988249-epub-3.0",
+        "_score" : 13.423665,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+          "dc_subject" : [
+            "Literature and Fiction",
+            "Mystery and Thrillers",
+            "FICTION / Thrillers / Crime"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the last stand",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/EPUB3",
+          "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+          "dc_publisher" : "Titan",
+          "dc_identifier" : [
+            "isbn:9781785656873"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2018",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-1988249-epub-3.0",
+          "emma_indexLastUpdated" : "2020-07-11T09:58:33.754760-07:00",
+          "dc_format" : "epub",
+          "dc_relation" : [
+            "isbn:9781785656866"
+          ],
+          "dc_creator" : [
+            "Mickey Spillane"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Random House"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "1988249",
+          "emma_formatVersion" : "3.0",
+          "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+          "dc_title" : "The Last Stand",
+          "emma_sortDate" : "2018-03-20T08:49:08Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "d633078e-5a80-4e27-bcf3-99d5f7cb06c3"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 13.313732,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1988249-brf",
+                  "_score" : 13.313732,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Thrillers / Crime"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/BRF",
+                    "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+                    "dc_publisher" : "Titan",
+                    "dc_identifier" : [
+                      "isbn:9781785656873"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "emma_recordId" : "bookshare-1988249-brf",
+                    "emma_indexLastUpdated" : "2020-07-11T09:58:33.755539-07:00",
+                    "dc_format" : "brf",
+                    "dc_relation" : [
+                      "isbn:9781785656866"
+                    ],
+                    "dc_creator" : [
+                      "Mickey Spillane"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1988249",
+                    "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+                    "dc_title" : "The Last Stand",
+                    "emma_sortDate" : "2018-03-20T08:49:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1988249-daisyAudio-1",
+                  "_score" : 13.313732,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Thrillers / Crime"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/DAISY_AUDIO",
+                    "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+                    "dc_publisher" : "Titan",
+                    "dc_identifier" : [
+                      "isbn:9781785656873"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-1988249-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-11T09:58:33.755946-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_relation" : [
+                      "isbn:9781785656866"
+                    ],
+                    "dc_creator" : [
+                      "Mickey Spillane"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1988249",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+                    "dc_title" : "The Last Stand",
+                    "emma_sortDate" : "2018-03-20T08:49:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1988249-daisy",
+                  "_score" : 13.299804,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Thrillers / Crime"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/DAISY",
+                    "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+                    "dc_publisher" : "Titan",
+                    "dc_identifier" : [
+                      "isbn:9781785656873"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1988249-daisy",
+                    "emma_indexLastUpdated" : "2020-07-11T09:58:33.546014-07:00",
+                    "dc_format" : "daisy",
+                    "dc_relation" : [
+                      "isbn:9781785656866"
+                    ],
+                    "dc_creator" : [
+                      "Mickey Spillane"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1988249",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+                    "dc_title" : "The Last Stand",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2018-03-20T08:49:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1988249-epub-3.0",
+                  "_score" : 13.285904,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Thrillers / Crime"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/EPUB3",
+                    "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+                    "dc_publisher" : "Titan",
+                    "dc_identifier" : [
+                      "isbn:9781785656873"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1988249-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-11T09:58:33.754760-07:00",
+                    "dc_format" : "epub",
+                    "dc_relation" : [
+                      "isbn:9781785656866"
+                    ],
+                    "dc_creator" : [
+                      "Mickey Spillane"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1988249",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+                    "dc_title" : "The Last Stand",
+                    "emma_sortDate" : "2018-03-20T08:49:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1988249-word",
+                  "_score" : 13.24173,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-03-20T08:53:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Thrillers / Crime"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1988249/DOCX",
+                    "emma_titleId" : "d633078e-5a80-4e27-bcf3-99d5f7cb06c3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1988249",
+                    "dc_publisher" : "Titan",
+                    "dc_identifier" : [
+                      "isbn:9781785656873"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1988249-word",
+                    "emma_indexLastUpdated" : "2020-07-11T09:58:33.755166-07:00",
+                    "dc_format" : "word",
+                    "dc_relation" : [
+                      "isbn:9781785656866"
+                    ],
+                    "dc_creator" : [
+                      "Mickey Spillane"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1988249",
+                    "dcterms_dateAccepted" : "2018-03-20T08:49:08Z",
+                    "dc_title" : "The Last Stand",
+                    "emma_sortDate" : "2018-03-20T08:49:08Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-2045882-word",
+        "_score" : 13.423665,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+          "dc_subject" : [
+            "Literature and Fiction",
+            "Mystery and Thrillers",
+            "FICTION / Mystery & Detective / General",
+            "FICTION / Mystery & Detective / Traditional",
+            "FICTION / Thrillers / Suspense"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the standin",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/DOCX",
+          "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+          "dc_publisher" : "MysteriousPress.com/Open Road",
+          "dc_identifier" : [
+            "isbn:9781504016841"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "1970",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-2045882-word",
+          "emma_indexLastUpdated" : "2020-07-10T16:18:53.312054-07:00",
+          "dc_format" : "word",
+          "dc_creator" : [
+            "Evelyn Piper"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Open Road"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "2045882",
+          "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+          "dc_title" : "The Stand-In",
+          "emma_sortDate" : "2018-05-08T02:45:47Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "2bf8b51d-975f-4ccf-a81d-bd54e72035e4"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 13.423665,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2045882-word",
+                  "_score" : 13.423665,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Mystery & Detective / General",
+                      "FICTION / Mystery & Detective / Traditional",
+                      "FICTION / Thrillers / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/DOCX",
+                    "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+                    "dc_publisher" : "MysteriousPress.com/Open Road",
+                    "dc_identifier" : [
+                      "isbn:9781504016841"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1970",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2045882-word",
+                    "emma_indexLastUpdated" : "2020-07-10T16:18:53.312054-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Evelyn Piper"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Open Road"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2045882",
+                    "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2018-05-08T02:45:47Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2045882-daisy",
+                  "_score" : 13.278236,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Mystery & Detective / General",
+                      "FICTION / Mystery & Detective / Traditional",
+                      "FICTION / Thrillers / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/DAISY",
+                    "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+                    "dc_publisher" : "MysteriousPress.com/Open Road",
+                    "dc_identifier" : [
+                      "isbn:9781504016841"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1970",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2045882-daisy",
+                    "emma_indexLastUpdated" : "2020-07-10T16:18:53.311276-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Evelyn Piper"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Open Road"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2045882",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+                    "dc_title" : "The Stand-In",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2018-05-08T02:45:47Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2045882-epub-3.0",
+                  "_score" : 13.278236,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Mystery & Detective / General",
+                      "FICTION / Mystery & Detective / Traditional",
+                      "FICTION / Thrillers / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/EPUB3",
+                    "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+                    "dc_publisher" : "MysteriousPress.com/Open Road",
+                    "dc_identifier" : [
+                      "isbn:9781504016841"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1970",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2045882-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-10T16:18:53.311701-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Evelyn Piper"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Open Road"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2045882",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2018-05-08T02:45:47Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2045882-brf",
+                  "_score" : 13.198727,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Mystery & Detective / General",
+                      "FICTION / Mystery & Detective / Traditional",
+                      "FICTION / Thrillers / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/BRF",
+                    "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+                    "dc_publisher" : "MysteriousPress.com/Open Road",
+                    "dc_identifier" : [
+                      "isbn:9781504016841"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "1970",
+                    "emma_recordId" : "bookshare-2045882-brf",
+                    "emma_indexLastUpdated" : "2020-07-10T16:18:53.152871-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Evelyn Piper"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Open Road"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2045882",
+                    "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2018-05-08T02:45:47Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2045882-daisyAudio-1",
+                  "_score" : 13.198727,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-05-08T02:49:40Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "FICTION / Mystery & Detective / General",
+                      "FICTION / Mystery & Detective / Traditional",
+                      "FICTION / Thrillers / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2045882/DAISY_AUDIO",
+                    "emma_titleId" : "2bf8b51d-975f-4ccf-a81d-bd54e72035e4",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2045882",
+                    "dc_publisher" : "MysteriousPress.com/Open Road",
+                    "dc_identifier" : [
+                      "isbn:9781504016841"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "1970",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-2045882-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-10T16:18:53.312698-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Evelyn Piper"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Open Road"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2045882",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2018-05-08T02:45:47Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2018-05-08T02:45:47Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-1293771-daisy",
+        "_score" : 13.315407,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+          "dc_subject" : [
+            "Literature and Fiction",
+            "Parenting and Family",
+            "Romance",
+            "FICTION / Contemporary Women",
+            "FICTION / Family Life",
+            "FICTION / Romance / Contemporary",
+            "FICTION / Romance / General"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the ballerinas stand",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/DAISY",
+          "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+          "dc_publisher" : "Harlequin",
+          "dc_identifier" : [
+            "isbn:9781488006753"
+          ],
+          "s_accessibilityFeature" : [
+            "displayTransformability/font-size",
+            "displayTransformability/color",
+            "displayTransformability/background-color",
+            "bookmarks",
+            "readingOrder",
+            "structuralNavigation"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2016",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-1293771-daisy",
+          "emma_indexLastUpdated" : "2020-06-24T04:28:56.799546-07:00",
+          "dc_format" : "daisy",
+          "dc_relation" : [
+            "isbn:9780373609963"
+          ],
+          "dc_creator" : [
+            "Angel Smits"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Harlequin"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "1293771",
+          "s_accessibilityControl" : [
+            "fullKeyboardControl",
+            "fullMouseControl"
+          ],
+          "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+          "dc_title" : "The Ballerina's Stand",
+          "s_accessibilityHazard" : [
+            "noFlashingHazard",
+            "noMotionSimulationHazard",
+            "noSoundHazard"
+          ],
+          "emma_sortDate" : "2016-07-01T07:55:15Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "279620b8-88d4-4c19-afa7-9a1c94a6750b"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 13.313732,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1293771-daisy",
+                  "_score" : 13.313732,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Parenting and Family",
+                      "Romance",
+                      "FICTION / Contemporary Women",
+                      "FICTION / Family Life",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the ballerinas stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/DAISY",
+                    "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+                    "dc_publisher" : "Harlequin",
+                    "dc_identifier" : [
+                      "isbn:9781488006753"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2016",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1293771-daisy",
+                    "emma_indexLastUpdated" : "2020-06-24T04:28:56.799546-07:00",
+                    "dc_format" : "daisy",
+                    "dc_relation" : [
+                      "isbn:9780373609963"
+                    ],
+                    "dc_creator" : [
+                      "Angel Smits"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1293771",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+                    "dc_title" : "The Ballerina's Stand",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2016-07-01T07:55:15Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1293771-daisyAudio-1",
+                  "_score" : 13.313732,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Parenting and Family",
+                      "Romance",
+                      "FICTION / Contemporary Women",
+                      "FICTION / Family Life",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the ballerinas stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/DAISY_AUDIO",
+                    "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+                    "dc_publisher" : "Harlequin",
+                    "dc_identifier" : [
+                      "isbn:9781488006753"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2016",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-1293771-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-06-24T04:28:57.020770-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_relation" : [
+                      "isbn:9780373609963"
+                    ],
+                    "dc_creator" : [
+                      "Angel Smits"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1293771",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+                    "dc_title" : "The Ballerina's Stand",
+                    "emma_sortDate" : "2016-07-01T07:55:15Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1293771-epub-3.0",
+                  "_score" : 13.299804,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Parenting and Family",
+                      "Romance",
+                      "FICTION / Contemporary Women",
+                      "FICTION / Family Life",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the ballerinas stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/EPUB3",
+                    "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+                    "dc_publisher" : "Harlequin",
+                    "dc_identifier" : [
+                      "isbn:9781488006753"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2016",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1293771-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-06-24T04:28:56.998955-07:00",
+                    "dc_format" : "epub",
+                    "dc_relation" : [
+                      "isbn:9780373609963"
+                    ],
+                    "dc_creator" : [
+                      "Angel Smits"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1293771",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+                    "dc_title" : "The Ballerina's Stand",
+                    "emma_sortDate" : "2016-07-01T07:55:15Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1293771-brf",
+                  "_score" : 13.299804,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Parenting and Family",
+                      "Romance",
+                      "FICTION / Contemporary Women",
+                      "FICTION / Family Life",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the ballerinas stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/BRF",
+                    "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+                    "dc_publisher" : "Harlequin",
+                    "dc_identifier" : [
+                      "isbn:9781488006753"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2016",
+                    "emma_recordId" : "bookshare-1293771-brf",
+                    "emma_indexLastUpdated" : "2020-06-24T04:28:57.020195-07:00",
+                    "dc_format" : "brf",
+                    "dc_relation" : [
+                      "isbn:9780373609963"
+                    ],
+                    "dc_creator" : [
+                      "Angel Smits"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1293771",
+                    "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+                    "dc_title" : "The Ballerina's Stand",
+                    "emma_sortDate" : "2016-07-01T07:55:15Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1293771-word",
+                  "_score" : 13.168039,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-12-26T22:37:22Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Parenting and Family",
+                      "Romance",
+                      "FICTION / Contemporary Women",
+                      "FICTION / Family Life",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the ballerinas stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1293771/DOCX",
+                    "emma_titleId" : "279620b8-88d4-4c19-afa7-9a1c94a6750b",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1293771",
+                    "dc_publisher" : "Harlequin",
+                    "dc_identifier" : [
+                      "isbn:9781488006753"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2016",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1293771-word",
+                    "emma_indexLastUpdated" : "2020-06-24T04:28:57.019626-07:00",
+                    "dc_format" : "word",
+                    "dc_relation" : [
+                      "isbn:9780373609963"
+                    ],
+                    "dc_creator" : [
+                      "Angel Smits"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1293771",
+                    "dcterms_dateAccepted" : "2016-07-01T07:55:15Z",
+                    "dc_title" : "The Ballerina's Stand",
+                    "emma_sortDate" : "2016-07-01T07:55:15Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-1274424-word",
+        "_score" : 13.315407,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+          "dc_subject" : [
+            "Humor",
+            "Literature and Fiction",
+            "Romance",
+            "FICTION / Humorous",
+            "FICTION / Romance / Contemporary",
+            "FICTION / Romance / General"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the standin",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/DOCX",
+          "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+          "dc_publisher" : "Liquid Silver Books",
+          "dc_identifier" : [
+            "isbn:9781622101863"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2015",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-1274424-word",
+          "emma_indexLastUpdated" : "2020-06-29T07:43:33.759921-07:00",
+          "dc_format" : "word",
+          "dc_creator" : [
+            "Rosanna Leo"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "INscribe"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "1274424",
+          "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+          "dc_title" : "The Stand-In",
+          "emma_sortDate" : "2016-06-16T01:23:30Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "40e95e10-9a0a-48d0-9667-e0623cec10d3"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 13.315407,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1274424-word",
+                  "_score" : 13.315407,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Humorous",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/DOCX",
+                    "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+                    "dc_publisher" : "Liquid Silver Books",
+                    "dc_identifier" : [
+                      "isbn:9781622101863"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2015",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1274424-word",
+                    "emma_indexLastUpdated" : "2020-06-29T07:43:33.759921-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Rosanna Leo"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "INscribe"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1274424",
+                    "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2016-06-16T01:23:30Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1274424-daisy",
+                  "_score" : 13.278236,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Humorous",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/DAISY",
+                    "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+                    "dc_publisher" : "Liquid Silver Books",
+                    "dc_identifier" : [
+                      "isbn:9781622101863"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2015",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1274424-daisy",
+                    "emma_indexLastUpdated" : "2020-06-29T07:43:33.601367-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Rosanna Leo"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "INscribe"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1274424",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+                    "dc_title" : "The Stand-In",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2016-06-16T01:23:30Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1274424-brf",
+                  "_score" : 13.278236,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Humorous",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/BRF",
+                    "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+                    "dc_publisher" : "Liquid Silver Books",
+                    "dc_identifier" : [
+                      "isbn:9781622101863"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2015",
+                    "emma_recordId" : "bookshare-1274424-brf",
+                    "emma_indexLastUpdated" : "2020-06-29T07:43:33.760314-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Rosanna Leo"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "INscribe"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1274424",
+                    "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2016-06-16T01:23:30Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1274424-daisyAudio-1",
+                  "_score" : 13.278236,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Humorous",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/DAISY_AUDIO",
+                    "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+                    "dc_publisher" : "Liquid Silver Books",
+                    "dc_identifier" : [
+                      "isbn:9781622101863"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2015",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-1274424-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-06-29T07:43:33.760742-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Rosanna Leo"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "INscribe"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1274424",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2016-06-16T01:23:30Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1274424-epub-3.0",
+                  "_score" : 13.198727,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-08T07:54:06Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Humorous",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1274424/EPUB3",
+                    "emma_titleId" : "40e95e10-9a0a-48d0-9667-e0623cec10d3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1274424",
+                    "dc_publisher" : "Liquid Silver Books",
+                    "dc_identifier" : [
+                      "isbn:9781622101863"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2015",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1274424-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-06-29T07:43:33.759490-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Rosanna Leo"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "INscribe"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1274424",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2016-06-16T01:23:30Z",
+                    "dc_title" : "The Stand-In",
+                    "emma_sortDate" : "2016-06-16T01:23:30Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-836750-daisy",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+          "dc_subject" : [
+            "Education",
+            "Nonfiction",
+            "EDUCATION / Teaching Methods & Materials / General"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "stand for the best",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/DAISY",
+          "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+          "dc_publisher" : "Wiley",
+          "dc_identifier" : [
+            "isbn:9780470639597"
+          ],
+          "s_accessibilityFeature" : [
+            "displayTransformability/font-size",
+            "displayTransformability/color",
+            "displayTransformability/background-color",
+            "bookmarks",
+            "readingOrder",
+            "structuralNavigation"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2008",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-836750-daisy",
+          "emma_indexLastUpdated" : "2020-07-02T04:48:43.944699-07:00",
+          "dc_format" : "daisy",
+          "dc_creator" : [
+            "Thomas M.",
+            "Bloch"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Wiley"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "836750",
+          "s_accessibilityControl" : [
+            "fullKeyboardControl",
+            "fullMouseControl"
+          ],
+          "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+          "dc_title" : "Stand for the Best",
+          "s_accessibilityHazard" : [
+            "noFlashingHazard",
+            "noMotionSimulationHazard",
+            "noSoundHazard"
+          ],
+          "emma_sortDate" : "2014-06-07T22:34:32Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "adbe0ad2-bedb-4b52-b563-f84a263d2769"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 12.681192,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-836750-epub-3.0",
+                  "_score" : 12.681192,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+                    "dc_subject" : [
+                      "Education",
+                      "Nonfiction",
+                      "EDUCATION / Teaching Methods & Materials / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand for the best",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/EPUB3",
+                    "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+                    "dc_publisher" : "Wiley",
+                    "dc_identifier" : [
+                      "isbn:9780470639597"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2008",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-836750-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-02T04:48:43.945153-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Thomas M.",
+                      "Bloch"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Wiley"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "836750",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+                    "dc_title" : "Stand for the Best",
+                    "emma_sortDate" : "2014-06-07T22:34:32Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-836750-word",
+                  "_score" : 12.681192,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+                    "dc_subject" : [
+                      "Education",
+                      "Nonfiction",
+                      "EDUCATION / Teaching Methods & Materials / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand for the best",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/DOCX",
+                    "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+                    "dc_publisher" : "Wiley",
+                    "dc_identifier" : [
+                      "isbn:9780470639597"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2008",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-836750-word",
+                    "emma_indexLastUpdated" : "2020-07-02T04:48:43.945521-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Thomas M.",
+                      "Bloch"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Wiley"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "836750",
+                    "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+                    "dc_title" : "Stand for the Best",
+                    "emma_sortDate" : "2014-06-07T22:34:32Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-836750-daisy",
+                  "_score" : 12.663145,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+                    "dc_subject" : [
+                      "Education",
+                      "Nonfiction",
+                      "EDUCATION / Teaching Methods & Materials / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand for the best",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/DAISY",
+                    "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+                    "dc_publisher" : "Wiley",
+                    "dc_identifier" : [
+                      "isbn:9780470639597"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2008",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-836750-daisy",
+                    "emma_indexLastUpdated" : "2020-07-02T04:48:43.944699-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Thomas M.",
+                      "Bloch"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Wiley"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "836750",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+                    "dc_title" : "Stand for the Best",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2014-06-07T22:34:32Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-836750-brf",
+                  "_score" : 12.622992,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+                    "dc_subject" : [
+                      "Education",
+                      "Nonfiction",
+                      "EDUCATION / Teaching Methods & Materials / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand for the best",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/BRF",
+                    "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+                    "dc_publisher" : "Wiley",
+                    "dc_identifier" : [
+                      "isbn:9780470639597"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2008",
+                    "emma_recordId" : "bookshare-836750-brf",
+                    "emma_indexLastUpdated" : "2020-07-02T04:48:43.777160-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Thomas M.",
+                      "Bloch"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Wiley"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "836750",
+                    "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+                    "dc_title" : "Stand for the Best",
+                    "emma_sortDate" : "2014-06-07T22:34:32Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-836750-daisyAudio-1",
+                  "_score" : 12.544943,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-05T20:04:34Z",
+                    "dc_subject" : [
+                      "Education",
+                      "Nonfiction",
+                      "EDUCATION / Teaching Methods & Materials / General"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand for the best",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/836750/DAISY_AUDIO",
+                    "emma_titleId" : "adbe0ad2-bedb-4b52-b563-f84a263d2769",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/836750",
+                    "dc_publisher" : "Wiley",
+                    "dc_identifier" : [
+                      "isbn:9780470639597"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2008",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-836750-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-02T04:48:43.974123-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Thomas M.",
+                      "Bloch"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Wiley"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "836750",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2014-06-07T22:34:32Z",
+                    "dc_title" : "Stand for the Best",
+                    "emma_sortDate" : "2014-06-07T22:34:32Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-484060-daisy",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+          "dc_subject" : [
+            "Literature and Fiction",
+            "Romance",
+            "FICTION / Romance / Contemporary"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the grooms standin",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/DAISY",
+          "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+          "dc_publisher" : "Silhouette",
+          "dc_identifier" : [
+            "isbn:9781459240322"
+          ],
+          "s_accessibilityFeature" : [
+            "displayTransformability/font-size",
+            "displayTransformability/color",
+            "displayTransformability/background-color",
+            "bookmarks",
+            "readingOrder",
+            "structuralNavigation"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2002",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-484060-daisy",
+          "emma_indexLastUpdated" : "2020-07-04T02:14:13.785355-07:00",
+          "dc_format" : "daisy",
+          "dc_relation" : [
+            "isbn:9780373244607"
+          ],
+          "dc_creator" : [
+            "Gina Wilkins"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Harlequin"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "484060",
+          "s_accessibilityControl" : [
+            "fullKeyboardControl",
+            "fullMouseControl"
+          ],
+          "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+          "dc_title" : "The Groom's Stand-In",
+          "s_accessibilityHazard" : [
+            "noFlashingHazard",
+            "noMotionSimulationHazard",
+            "noSoundHazard"
+          ],
+          "emma_sortDate" : "2012-04-16T23:44:08Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "c556ad3c-1ed7-4b0c-8c82-9425393ab208"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 12.800739,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-484060-daisy",
+                  "_score" : 12.800739,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the grooms standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/DAISY",
+                    "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459240322"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2002",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-484060-daisy",
+                    "emma_indexLastUpdated" : "2020-07-04T02:14:13.785355-07:00",
+                    "dc_format" : "daisy",
+                    "dc_relation" : [
+                      "isbn:9780373244607"
+                    ],
+                    "dc_creator" : [
+                      "Gina Wilkins"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "484060",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+                    "dc_title" : "The Groom's Stand-In",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2012-04-16T23:44:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-484060-brf",
+                  "_score" : 12.693257,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the grooms standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/BRF",
+                    "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459240322"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2002",
+                    "emma_recordId" : "bookshare-484060-brf",
+                    "emma_indexLastUpdated" : "2020-07-04T02:14:13.625439-07:00",
+                    "dc_format" : "brf",
+                    "dc_relation" : [
+                      "isbn:9780373244607"
+                    ],
+                    "dc_creator" : [
+                      "Gina Wilkins"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "484060",
+                    "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+                    "dc_title" : "The Groom's Stand-In",
+                    "emma_sortDate" : "2012-04-16T23:44:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-484060-epub-3.0",
+                  "_score" : 12.673466,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the grooms standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/EPUB3",
+                    "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459240322"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2002",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-484060-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-04T02:14:13.785791-07:00",
+                    "dc_format" : "epub",
+                    "dc_relation" : [
+                      "isbn:9780373244607"
+                    ],
+                    "dc_creator" : [
+                      "Gina Wilkins"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "484060",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+                    "dc_title" : "The Groom's Stand-In",
+                    "emma_sortDate" : "2012-04-16T23:44:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-484060-daisyAudio-1",
+                  "_score" : 12.673466,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the grooms standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/DAISY_AUDIO",
+                    "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459240322"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2002",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-484060-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-04T02:14:13.810929-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_relation" : [
+                      "isbn:9780373244607"
+                    ],
+                    "dc_creator" : [
+                      "Gina Wilkins"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "484060",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+                    "dc_title" : "The Groom's Stand-In",
+                    "emma_sortDate" : "2012-04-16T23:44:08Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-484060-word",
+                  "_score" : 12.659424,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-04T02:02:55Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the grooms standin",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/484060/DOCX",
+                    "emma_titleId" : "c556ad3c-1ed7-4b0c-8c82-9425393ab208",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/484060",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459240322"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2002",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-484060-word",
+                    "emma_indexLastUpdated" : "2020-07-04T02:14:13.810400-07:00",
+                    "dc_format" : "word",
+                    "dc_relation" : [
+                      "isbn:9780373244607"
+                    ],
+                    "dc_creator" : [
+                      "Gina Wilkins"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "484060",
+                    "dcterms_dateAccepted" : "2012-04-16T23:44:08Z",
+                    "dc_title" : "The Groom's Stand-In",
+                    "emma_sortDate" : "2012-04-16T23:44:08Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-1592950-brf",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+          "dc_subject" : [
+            "Nonfiction",
+            "Religion and Spirituality",
+            "RELIGION / Inspirational"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "stand against the wind",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/BRF",
+          "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+          "dc_publisher" : "Thomas Nelson",
+          "dc_identifier" : [
+            "isbn:9781418586003"
+          ],
+          "s_accessibilityFeature" : [
+            "braille"
+          ],
+          "dcterms_dateCopyright" : "2006",
+          "emma_recordId" : "bookshare-1592950-brf",
+          "emma_indexLastUpdated" : "2020-06-26T11:03:56.467717-07:00",
+          "dc_format" : "brf",
+          "dc_relation" : [
+            "isbn:9781404102965"
+          ],
+          "dc_creator" : [
+            "Erwin Raphael Mcmanus"
+          ],
+          "emma_formatFeature" : [
+            "ueb",
+            "ebae",
+            "grade1",
+            "grade2"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Thomas Nelson"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "1592950",
+          "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+          "dc_title" : "Stand Against the Wind",
+          "emma_sortDate" : "2017-04-21T17:37:21Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "3c8380df-0fbc-42d9-a698-19fd68eb5eb3"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 12.681192,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1592950-daisyAudio-1",
+                  "_score" : 12.681192,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+                    "dc_subject" : [
+                      "Nonfiction",
+                      "Religion and Spirituality",
+                      "RELIGION / Inspirational"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand against the wind",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/DAISY_AUDIO",
+                    "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+                    "dc_publisher" : "Thomas Nelson",
+                    "dc_identifier" : [
+                      "isbn:9781418586003"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2006",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-1592950-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-06-26T11:03:56.610101-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_relation" : [
+                      "isbn:9781404102965"
+                    ],
+                    "dc_creator" : [
+                      "Erwin Raphael Mcmanus"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Thomas Nelson"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1592950",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+                    "dc_title" : "Stand Against the Wind",
+                    "emma_sortDate" : "2017-04-21T17:37:21Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1592950-brf",
+                  "_score" : 12.663145,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+                    "dc_subject" : [
+                      "Nonfiction",
+                      "Religion and Spirituality",
+                      "RELIGION / Inspirational"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand against the wind",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/BRF",
+                    "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+                    "dc_publisher" : "Thomas Nelson",
+                    "dc_identifier" : [
+                      "isbn:9781418586003"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2006",
+                    "emma_recordId" : "bookshare-1592950-brf",
+                    "emma_indexLastUpdated" : "2020-06-26T11:03:56.467717-07:00",
+                    "dc_format" : "brf",
+                    "dc_relation" : [
+                      "isbn:9781404102965"
+                    ],
+                    "dc_creator" : [
+                      "Erwin Raphael Mcmanus"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Thomas Nelson"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1592950",
+                    "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+                    "dc_title" : "Stand Against the Wind",
+                    "emma_sortDate" : "2017-04-21T17:37:21Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1592950-daisy",
+                  "_score" : 12.622992,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+                    "dc_subject" : [
+                      "Nonfiction",
+                      "Religion and Spirituality",
+                      "RELIGION / Inspirational"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand against the wind",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/DAISY",
+                    "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+                    "dc_publisher" : "Thomas Nelson",
+                    "dc_identifier" : [
+                      "isbn:9781418586003"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2006",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1592950-daisy",
+                    "emma_indexLastUpdated" : "2020-06-26T11:03:56.608881-07:00",
+                    "dc_format" : "daisy",
+                    "dc_relation" : [
+                      "isbn:9781404102965"
+                    ],
+                    "dc_creator" : [
+                      "Erwin Raphael Mcmanus"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Thomas Nelson"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1592950",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+                    "dc_title" : "Stand Against the Wind",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2017-04-21T17:37:21Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1592950-epub-3.0",
+                  "_score" : 12.622992,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+                    "dc_subject" : [
+                      "Nonfiction",
+                      "Religion and Spirituality",
+                      "RELIGION / Inspirational"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand against the wind",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/EPUB3",
+                    "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+                    "dc_publisher" : "Thomas Nelson",
+                    "dc_identifier" : [
+                      "isbn:9781418586003"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2006",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1592950-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-06-26T11:03:56.609322-07:00",
+                    "dc_format" : "epub",
+                    "dc_relation" : [
+                      "isbn:9781404102965"
+                    ],
+                    "dc_creator" : [
+                      "Erwin Raphael Mcmanus"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Thomas Nelson"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1592950",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+                    "dc_title" : "Stand Against the Wind",
+                    "emma_sortDate" : "2017-04-21T17:37:21Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-1592950-word",
+                  "_score" : 12.622992,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2019-06-10T18:41:31Z",
+                    "dc_subject" : [
+                      "Nonfiction",
+                      "Religion and Spirituality",
+                      "RELIGION / Inspirational"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "stand against the wind",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/1592950/DOCX",
+                    "emma_titleId" : "3c8380df-0fbc-42d9-a698-19fd68eb5eb3",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/1592950",
+                    "dc_publisher" : "Thomas Nelson",
+                    "dc_identifier" : [
+                      "isbn:9781418586003"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2006",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-1592950-word",
+                    "emma_indexLastUpdated" : "2020-06-26T11:03:56.609696-07:00",
+                    "dc_format" : "word",
+                    "dc_relation" : [
+                      "isbn:9781404102965"
+                    ],
+                    "dc_creator" : [
+                      "Erwin Raphael Mcmanus"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Thomas Nelson"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "1592950",
+                    "dcterms_dateAccepted" : "2017-04-21T17:37:21Z",
+                    "dc_title" : "Stand Against the Wind",
+                    "emma_sortDate" : "2017-04-21T17:37:21Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-2001900-daisy",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+          "dc_subject" : [
+            "Humor",
+            "Literature and Fiction",
+            "Mystery and Thrillers",
+            "Romance",
+            "FICTION / Romance / Contemporary",
+            "FICTION / Romance / Romantic Comedy",
+            "FICTION / Romance / Suspense"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "cant stand the heat",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/DAISY",
+          "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+          "dc_publisher" : "Kensington",
+          "dc_identifier" : [
+            "isbn:9781516101092"
+          ],
+          "s_accessibilityFeature" : [
+            "displayTransformability/font-size",
+            "displayTransformability/color",
+            "displayTransformability/background-color",
+            "bookmarks",
+            "readingOrder",
+            "structuralNavigation"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2018",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-2001900-daisy",
+          "emma_indexLastUpdated" : "2020-07-11T04:23:50.533194-07:00",
+          "dc_format" : "daisy",
+          "dc_creator" : [
+            "Peggy Jaeger"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Random House"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "2001900",
+          "s_accessibilityControl" : [
+            "fullKeyboardControl",
+            "fullMouseControl"
+          ],
+          "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+          "dc_title" : "Can't Stand the Heat",
+          "s_accessibilityHazard" : [
+            "noFlashingHazard",
+            "noMotionSimulationHazard",
+            "noSoundHazard"
+          ],
+          "emma_sortDate" : "2018-04-03T08:48:35Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "a2e621b5-6fca-46cd-aff9-fc5525523ca7"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 10,
+                "relation" : "eq"
+              },
+              "max_score" : 12.800739,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2001900-daisy",
+                  "_score" : 12.800739,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/DAISY",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2001900-daisy",
+                    "emma_indexLastUpdated" : "2020-07-11T04:23:50.533194-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2001900",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+                    "dc_title" : "Can't Stand the Heat",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2018-04-03T08:48:35Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2001900-epub-3.0",
+                  "_score" : 12.693257,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/EPUB3",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2001900-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-11T04:23:50.533603-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2001900",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+                    "dc_title" : "Can't Stand the Heat",
+                    "emma_sortDate" : "2018-04-03T08:48:35Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2001900-brf",
+                  "_score" : 12.673466,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/BRF",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "emma_recordId" : "bookshare-2001900-brf",
+                    "emma_indexLastUpdated" : "2020-07-11T04:23:50.391908-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2001900",
+                    "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+                    "dc_title" : "Can't Stand the Heat",
+                    "emma_sortDate" : "2018-04-03T08:48:35Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2001900-word",
+                  "_score" : 12.659424,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/DOCX",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-2001900-word",
+                    "emma_indexLastUpdated" : "2020-07-11T04:23:50.533964-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2001900",
+                    "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+                    "dc_title" : "Can't Stand the Heat",
+                    "emma_sortDate" : "2018-04-03T08:48:35Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-2001900-daisyAudio-1",
+                  "_score" : 12.659424,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2018-04-03T09:03:16Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/2001900/DAISY_AUDIO",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/2001900",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-2001900-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-11T04:23:50.534345-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Random House"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "2001900",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2018-04-03T08:48:35Z",
+                    "dc_title" : "Can't Stand the Heat",
+                    "emma_sortDate" : "2018-04-03T08:48:35Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-3699729-daisy",
+                  "_score" : 10.38999,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2021-08-27T02:33:08Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat will cook for love 3",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/3699729/DAISY",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/3699729",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-3699729-daisy",
+                    "emma_indexLastUpdated" : "2021-08-27T21:35:25.945729-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Kensington Publishing Corp."
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "3699729",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2020-11-28T15:26:06Z",
+                    "dc_title" : "Can't Stand the Heat (Will Cook for Love #3)",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2020-11-28T15:26:06Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-3699729-daisyAudio-1",
+                  "_score" : 10.38999,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2021-08-27T02:33:08Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat will cook for love 3",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/3699729/DAISY_AUDIO",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/3699729",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-3699729-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2021-08-27T21:35:26.504685-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Kensington Publishing Corp."
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "3699729",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2020-11-28T15:26:06Z",
+                    "dc_title" : "Can't Stand the Heat (Will Cook for Love #3)",
+                    "emma_sortDate" : "2020-11-28T15:26:06Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-3699729-epub-3.0",
+                  "_score" : 10.278757,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2021-08-27T02:33:08Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat will cook for love 3",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/3699729/EPUB3",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/3699729",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-3699729-epub-3.0",
+                    "emma_indexLastUpdated" : "2021-08-27T21:35:26.492158-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Kensington Publishing Corp."
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "3699729",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2020-11-28T15:26:06Z",
+                    "dc_title" : "Can't Stand the Heat (Will Cook for Love #3)",
+                    "emma_sortDate" : "2020-11-28T15:26:06Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-3699729-word",
+                  "_score" : 10.278757,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2021-08-27T02:33:08Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat will cook for love 3",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/3699729/DOCX",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/3699729",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-3699729-word",
+                    "emma_indexLastUpdated" : "2021-08-27T21:35:26.505051-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Kensington Publishing Corp."
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "3699729",
+                    "dcterms_dateAccepted" : "2020-11-28T15:26:06Z",
+                    "dc_title" : "Can't Stand the Heat (Will Cook for Love #3)",
+                    "emma_sortDate" : "2020-11-28T15:26:06Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-3699729-brf",
+                  "_score" : 10.180903,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2021-08-27T02:33:08Z",
+                    "dc_subject" : [
+                      "Humor",
+                      "Literature and Fiction",
+                      "Mystery and Thrillers",
+                      "Romance",
+                      "FICTION / Romance / Contemporary",
+                      "FICTION / Romance / Romantic Comedy",
+                      "FICTION / Romance / Suspense"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "cant stand the heat will cook for love 3",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/3699729/BRF",
+                    "emma_titleId" : "a2e621b5-6fca-46cd-aff9-fc5525523ca7",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/3699729",
+                    "dc_publisher" : "Kensington",
+                    "dc_identifier" : [
+                      "isbn:9781516101092"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2018",
+                    "emma_recordId" : "bookshare-3699729-brf",
+                    "emma_indexLastUpdated" : "2021-08-27T21:35:26.505335-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Peggy Jaeger"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Kensington Publishing Corp."
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "3699729",
+                    "dcterms_dateAccepted" : "2020-11-28T15:26:06Z",
+                    "dc_title" : "Can't Stand the Heat (Will Cook for Love #3)",
+                    "emma_sortDate" : "2020-11-28T15:26:06Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "bookshare-394206-epub-3.0",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+          "dc_subject" : [
+            "Literature and Fiction",
+            "Romance",
+            "FICTION / Romance / Contemporary"
+          ],
+          "emma_repository" : "bookshare",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the lawmans last stand",
+          "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/EPUB3",
+          "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+          "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+          "dc_publisher" : "Silhouette",
+          "dc_identifier" : [
+            "isbn:9781459217348"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "2000",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "bookshare-394206-epub-3.0",
+          "emma_indexLastUpdated" : "2020-07-13T01:08:57.370958-07:00",
+          "dc_format" : "epub",
+          "dc_creator" : [
+            "Vickie Taylor"
+          ],
+          "emma_collection" : [
+            "bookshare",
+            "Harlequin"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "394206",
+          "emma_formatVersion" : "3.0",
+          "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+          "dc_title" : "The Lawman's Last Stand",
+          "emma_sortDate" : "2012-10-08T23:18:56Z"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 5,
+                "relation" : "eq"
+              },
+              "max_score" : 12.691315,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-394206-brf",
+                  "_score" : 12.691315,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the lawmans last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/BRF",
+                    "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459217348"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "braille"
+                    ],
+                    "dcterms_dateCopyright" : "2000",
+                    "emma_recordId" : "bookshare-394206-brf",
+                    "emma_indexLastUpdated" : "2020-07-13T01:08:57.192215-07:00",
+                    "dc_format" : "brf",
+                    "dc_creator" : [
+                      "Vickie Taylor"
+                    ],
+                    "emma_formatFeature" : [
+                      "ueb",
+                      "ebae",
+                      "grade1",
+                      "grade2"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "394206",
+                    "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+                    "dc_title" : "The Lawman's Last Stand",
+                    "emma_sortDate" : "2012-10-08T23:18:56Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-394206-daisy",
+                  "_score" : 12.681192,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the lawmans last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/DAISY",
+                    "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459217348"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "displayTransformability/font-size",
+                      "displayTransformability/color",
+                      "displayTransformability/background-color",
+                      "bookmarks",
+                      "readingOrder",
+                      "structuralNavigation"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2000",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-394206-daisy",
+                    "emma_indexLastUpdated" : "2020-07-13T01:08:57.370558-07:00",
+                    "dc_format" : "daisy",
+                    "dc_creator" : [
+                      "Vickie Taylor"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "394206",
+                    "s_accessibilityControl" : [
+                      "fullKeyboardControl",
+                      "fullMouseControl"
+                    ],
+                    "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+                    "dc_title" : "The Lawman's Last Stand",
+                    "s_accessibilityHazard" : [
+                      "noFlashingHazard",
+                      "noMotionSimulationHazard",
+                      "noSoundHazard"
+                    ],
+                    "emma_sortDate" : "2012-10-08T23:18:56Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-394206-epub-3.0",
+                  "_score" : 12.663145,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the lawmans last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/EPUB3",
+                    "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459217348"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2000",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-394206-epub-3.0",
+                    "emma_indexLastUpdated" : "2020-07-13T01:08:57.370958-07:00",
+                    "dc_format" : "epub",
+                    "dc_creator" : [
+                      "Vickie Taylor"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "394206",
+                    "emma_formatVersion" : "3.0",
+                    "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+                    "dc_title" : "The Lawman's Last Stand",
+                    "emma_sortDate" : "2012-10-08T23:18:56Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-394206-word",
+                  "_score" : 12.544943,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the lawmans last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/DOCX",
+                    "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459217348"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "2000",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "bookshare-394206-word",
+                    "emma_indexLastUpdated" : "2020-07-13T01:08:57.371299-07:00",
+                    "dc_format" : "word",
+                    "dc_creator" : [
+                      "Vickie Taylor"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "394206",
+                    "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+                    "dc_title" : "The Lawman's Last Stand",
+                    "emma_sortDate" : "2012-10-08T23:18:56Z"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "bookshare-394206-daisyAudio-1",
+                  "_score" : 12.544943,
+                  "_source" : {
+                    "emma_repositoryUpdateDate" : "2017-11-29T17:36:12Z",
+                    "dc_subject" : [
+                      "Literature and Fiction",
+                      "Romance",
+                      "FICTION / Romance / Contemporary"
+                    ],
+                    "emma_repository" : "bookshare",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the lawmans last stand",
+                    "emma_retrievalLink" : "https://api.bookshare.org/v2/titles/394206/DAISY_AUDIO",
+                    "emma_titleId" : "9b3be3dc-88fb-4685-8cb7-2c5743cb48cc",
+                    "emma_webPageLink" : "https://www.bookshare.org/browse/book/394206",
+                    "dc_publisher" : "Silhouette",
+                    "dc_identifier" : [
+                      "isbn:9781459217348"
+                    ],
+                    "s_accessibilityFeature" : [
+                      "sound"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "auditory"
+                    ],
+                    "dcterms_dateCopyright" : "2000",
+                    "s_accessMode" : [
+                      "auditory"
+                    ],
+                    "emma_recordId" : "bookshare-394206-daisyAudio-1",
+                    "emma_indexLastUpdated" : "2020-07-13T01:08:57.371670-07:00",
+                    "dc_format" : "daisyAudio",
+                    "dc_creator" : [
+                      "Vickie Taylor"
+                    ],
+                    "emma_formatFeature" : [
+                      "tts"
+                    ],
+                    "emma_collection" : [
+                      "bookshare",
+                      "Harlequin"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "394206",
+                    "emma_formatVersion" : "1",
+                    "dcterms_dateAccepted" : "2012-10-08T23:18:56Z",
+                    "dc_title" : "The Lawman's Last Stand",
+                    "emma_sortDate" : "2012-10-08T23:18:56Z"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "_index" : "emma-federated-index-qa-1.0.1",
+        "_type" : "_doc",
+        "_id" : "hathiTrust-mdp.39015005028686-pdf",
+        "_score" : 12.800739,
+        "_source" : {
+          "emma_repository" : "hathiTrust",
+          "dc_rights" : "copyright",
+          "emma_sortTitle" : "the stand  stephen king",
+          "emma_retrievalLink" : "https://hdl.handle.net/2027/mdp.39015005028686",
+          "emma_titleId" : "03bbc455-2a28-4f10-95b0-52806dfa9547",
+          "emma_webPageLink" : "https://hdl.handle.net/2027/mdp.39015005028686",
+          "dc_publisher" : "Doubleday",
+          "dc_identifier" : [
+            "isbn:9780385121682",
+            "isbn:0385121687",
+            "oclc:4195644",
+            "lccn:77016928"
+          ],
+          "s_accessModeSufficient" : [
+            "visual",
+            "textual"
+          ],
+          "dcterms_dateCopyright" : "1978",
+          "s_accessMode" : [
+            "visual",
+            "textual"
+          ],
+          "emma_recordId" : "hathiTrust-mdp.39015005028686-pdf",
+          "emma_indexLastUpdated" : "2021-09-30T02:07:08.187207-07:00",
+          "dc_format" : "pdf",
+          "dc_creator" : [
+            "King, Stephen, 1947-"
+          ],
+          "emma_collection" : [
+            "University of Michigan"
+          ],
+          "dc_language" : [
+            "eng"
+          ],
+          "emma_repositoryRecordId" : "mdp.39015005028686",
+          "dcterms_dateAccepted" : "2010-01-31T22:30:04",
+          "dc_title" : "The stand / Stephen King.",
+          "emma_sortDate" : "2010-01-31T22:30:04"
+        },
+        "fields" : {
+          "emma_titleId" : [
+            "03bbc455-2a28-4f10-95b0-52806dfa9547"
+          ]
+        },
+        "inner_hits" : {
+          "related" : {
+            "hits" : {
+              "total" : {
+                "value" : 3,
+                "relation" : "eq"
+              },
+              "max_score" : 12.800739,
+              "hits" : [
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "hathiTrust-mdp.39015005028686-pdf",
+                  "_score" : 12.800739,
+                  "_source" : {
+                    "emma_repository" : "hathiTrust",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the stand  stephen king",
+                    "emma_retrievalLink" : "https://hdl.handle.net/2027/mdp.39015005028686",
+                    "emma_titleId" : "03bbc455-2a28-4f10-95b0-52806dfa9547",
+                    "emma_webPageLink" : "https://hdl.handle.net/2027/mdp.39015005028686",
+                    "dc_publisher" : "Doubleday",
+                    "dc_identifier" : [
+                      "isbn:9780385121682",
+                      "isbn:0385121687",
+                      "oclc:4195644",
+                      "lccn:77016928"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1978",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "hathiTrust-mdp.39015005028686-pdf",
+                    "emma_indexLastUpdated" : "2021-09-30T02:07:08.187207-07:00",
+                    "dc_format" : "pdf",
+                    "dc_creator" : [
+                      "King, Stephen, 1947-"
+                    ],
+                    "emma_collection" : [
+                      "University of Michigan"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "mdp.39015005028686",
+                    "dcterms_dateAccepted" : "2010-01-31T22:30:04",
+                    "dc_title" : "The stand / Stephen King.",
+                    "emma_sortDate" : "2010-01-31T22:30:04"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "hathiTrust-mdp.39015005028694-pdf",
+                  "_score" : 12.693257,
+                  "_source" : {
+                    "emma_repository" : "hathiTrust",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the stand  stephen king",
+                    "emma_retrievalLink" : "https://hdl.handle.net/2027/mdp.39015005028694",
+                    "emma_titleId" : "03bbc455-2a28-4f10-95b0-52806dfa9547",
+                    "emma_webPageLink" : "https://hdl.handle.net/2027/mdp.39015005028694",
+                    "dc_publisher" : "Doubleday",
+                    "dc_identifier" : [
+                      "oclc:4195644",
+                      "lccn:77016928",
+                      "isbn:9780385121682",
+                      "isbn:0385121687"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1978",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "hathiTrust-mdp.39015005028694-pdf",
+                    "emma_indexLastUpdated" : "2021-09-27T02:42:13.826829-07:00",
+                    "dc_format" : "pdf",
+                    "dc_creator" : [
+                      "King, Stephen, 1947-"
+                    ],
+                    "emma_collection" : [
+                      "University of Michigan"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "mdp.39015005028694",
+                    "dcterms_dateAccepted" : "2010-01-31T22:30:04",
+                    "dc_title" : "The stand / Stephen King.",
+                    "emma_sortDate" : "2010-01-31T22:30:04"
+                  }
+                },
+                {
+                  "_index" : "emma-federated-index-qa-1.0.1",
+                  "_type" : "_doc",
+                  "_id" : "hathiTrust-mdp.39015005028678-pdf",
+                  "_score" : 12.659424,
+                  "_source" : {
+                    "emma_repository" : "hathiTrust",
+                    "dc_rights" : "copyright",
+                    "emma_sortTitle" : "the stand  stephen king",
+                    "emma_retrievalLink" : "https://hdl.handle.net/2027/mdp.39015005028678",
+                    "emma_titleId" : "03bbc455-2a28-4f10-95b0-52806dfa9547",
+                    "emma_webPageLink" : "https://hdl.handle.net/2027/mdp.39015005028678",
+                    "dc_publisher" : "Doubleday",
+                    "dc_identifier" : [
+                      "oclc:4195644",
+                      "lccn:77016928",
+                      "isbn:9780385121682",
+                      "isbn:0385121687"
+                    ],
+                    "s_accessModeSufficient" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "dcterms_dateCopyright" : "1978",
+                    "s_accessMode" : [
+                      "visual",
+                      "textual"
+                    ],
+                    "emma_recordId" : "hathiTrust-mdp.39015005028678-pdf",
+                    "emma_indexLastUpdated" : "2021-09-22T01:44:29.772647-07:00",
+                    "dc_format" : "pdf",
+                    "dc_creator" : [
+                      "King, Stephen, 1947-"
+                    ],
+                    "emma_collection" : [
+                      "University of Michigan"
+                    ],
+                    "dc_language" : [
+                      "eng"
+                    ],
+                    "emma_repositoryRecordId" : "mdp.39015005028678",
+                    "dcterms_dateAccepted" : "2010-01-31T22:30:03",
+                    "dc_title" : "The stand / Stephen King.",
+                    "emma_sortDate" : "2010-01-31T22:30:03"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+
+INTERVAL_IN_MIN = 5

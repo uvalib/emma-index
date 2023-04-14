@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+boto3 = "*"
+requests-aws4auth = "==0.9"
+requests = "==2.22.0"
+elasticsearch = "==7.1.0"
+elasticsearch-dsl = "==7.1.0"
+certifi = "==2019.9.11"
+chardet = "==3.0.4"
+docutils = "==0.15.2"
+idna = "==2.8"
+python-dateutil = "==2.8.0"
+six = "==1.13.0"
+pyyaml = "*"
+pytz = "*"
+importlib-metadata = "*"
+regex = "*"
+iso8601 = "*"
+jsonschema = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pylint = "*"
+autopep8 = "*"
+rope = "*"
+requests-mock = "*"
+dollar-ref = "*"
+behave = "*"
+
+[requires]
+python_version = "3.8"

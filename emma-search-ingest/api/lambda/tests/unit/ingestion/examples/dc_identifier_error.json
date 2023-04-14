@@ -1,0 +1,205 @@
+[{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960578",
+    "dc_title": "4 th  Standard gujrati GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "daisy",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960578/DAISY",
+    "s_accessibilityFeature": [
+        "displayTransformability/font-size",
+        "displayTransformability/color",
+        "displayTransformability/background-color",
+        "bookmarks",
+        "readingOrder",
+        "structuralNavigation"
+    ],
+    "s_accessibilityControl": [
+        "fullKeyboardControl",
+        "fullMouseControl"
+    ],
+    "s_accessibilityHazard": [
+        "noFlashingHazard",
+        "noMotionSimulationHazard",
+        "noSoundHazard"
+    ],
+    "emma_recordId": "bookshare-2960578-daisy"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960578",
+    "dc_title": "4 th  Standard gujrati GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "epub",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960578/EPUB3",
+    "emma_formatVersion": "3.0"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960578",
+    "dc_title": "4 th  Standard gujrati GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "word",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960578/DOCX"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960578",
+    "dc_title": "4 th  Standard gujrati GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "braille",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960578/BRF",
+    "s_accessibilityFeature": [
+        "braille"
+    ]
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960578",
+    "dc_title": "4 th  Standard gujrati GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "daisyAudio",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960578/DAISY_AUDIO",
+    "emma_formatVersion": "1"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960579",
+    "dc_title": "4 th  Standard Aapni aashpas  GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "daisy",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960579/DAISY",
+    "s_accessibilityFeature": [
+        "displayTransformability/font-size",
+        "displayTransformability/color",
+        "displayTransformability/background-color",
+        "bookmarks",
+        "readingOrder",
+        "structuralNavigation"
+    ],
+    "s_accessibilityControl": [
+        "fullKeyboardControl",
+        "fullMouseControl"
+    ],
+    "s_accessibilityHazard": [
+        "noFlashingHazard",
+        "noMotionSimulationHazard",
+        "noSoundHazard"
+    ]
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960579",
+    "dc_title": "4 th  Standard Aapni aashpas  GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "epub",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960579/EPUB3",
+    "emma_formatVersion": "3.0"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960579",
+    "dc_title": "4 th  Standard Aapni aashpas  GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "word",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960579/DOCX"
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960579",
+    "dc_title": "4 th  Standard Aapni aashpas  GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "braille",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960579/BRF",
+    "s_accessibilityFeature": [
+        "braille"
+    ]
+},
+{
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "2960579",
+    "dc_title": "4 th  Standard Aapni aashpas  GSTB",
+    "dc_creator": [
+        "Abc"
+    ],
+    "dc_subject": [
+        "Nonfiction"
+    ],
+    "dcterms_dateCopyright": "2019",
+    "dc_rights": "creativeCommons",
+    "dc_language": ["eng"],
+    "dc_format": "daisyAudio",
+    "emma_retrievalLink": "https://api.qa.bookshare.org/v2/titles/2960579/DAISY_AUDIO",
+    "emma_formatVersion": "1"
+}]

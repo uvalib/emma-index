@@ -1,0 +1,44 @@
+PUT /emma-federated-index/_doc/bookshare-243720-daisyAudio-1
+{
+  "emma_recordId": "bookshare-243720-daisyAudio-1",
+  "emma_titleId": "100001",
+  "emma_repository": "bookshare",
+  "emma_repositoryRecordId": "24372",
+  "emma_retrievalLink": "https://www.bookshare.org/browse/book/24372",
+  "emma_lastRemediationDate": "2019-05-06",
+  "emma_lastRemediationNote": "New DAISY Audio file",
+  "emma_formatVersion": "1",
+  "emma_formatFeature": [
+    "tts",
+    "male"
+  ],
+  "dc_title": "Harry Potter and the Chamber of Secrets (Harry Potter #2)",
+  "dc_creator": "J. K. Rowling",
+  "dc_identifier": "isbn:9780439064873",
+  "dc_publisher": "Scholastic",
+  "dc_language": "en",
+  "dc_rights": "copyright",
+  "dc_description": "Book #2 in the Harry Potter phenomenon.",
+  "dc_subject": [
+    "bisac:JUV000000 JUVENILE FICTION / General",
+    "bisac:JUV037000 JUVENILE FICTION / Fantasy & Magic",
+    "bisac:JUV030050 JUVENILE FICTION / People & Places / Europe",
+    "bisac:JUV035000 JUVENILE FICTION / School & Education",
+    "bookshare:Education",
+    "bookshare:Science Fiction and Fantasy",
+    "bookshare:Literature and Fiction",
+    "bookshare:Children's Books",
+    "bookshare:Teens"
+  ],
+  "dc_format": "daisyAudio",
+  "dc_type": "sound",
+  "dcterms_dateAccepted": "2015-11-13",
+  "dcterms_dateCopyright": "1997",
+  "s_accessibilityFeature": "synchronizedAudioText",
+  "s_accessibilityControl": "fullKeyboardControl",
+  "s_accessibilityHazard": [
+    "noFlashingHazard",
+    "noMotionSimulationHazard",
+    "noSoundHazard"
+  ]
+}

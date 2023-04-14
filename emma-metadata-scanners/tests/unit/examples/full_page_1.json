@@ -1,0 +1,530 @@
+{
+    "totalResults": 8,
+    "limit": 3,
+    "next": "Page1NextToken",
+    "allows": null,
+    "titles": [
+        {
+            "allows": null,
+            "bookshareId": 11,
+            "title": "Sick Young President: Volume 1 (Volume 1 #1)",
+            "subtitle": "Volume 1",
+            "authors": [
+                {
+                    "firstName": "Su",
+                    "lastName": "Yandeamiao",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781647812454",
+            "synopsis": "I am Tsai Xiaowu, a woman with a personality disorder. Yes, I am a psychotic. One accident, I was involved in a war with the Wealthy Class.Do you think that's all?No, I married a man with crippled legs … Shen Chuan...\"What are you doing?\"\"Fulfilling husband and wife duties …\"\"But... I'm a psychopath! My medical club. It will be inherited! \"\"It doesn't matter, isn't mental illness and being disabled a perfect match? I have enough money to support a sick child. \"",
+            "seriesTitle": "Volume 1",
+            "seriesNumber": "1",
+            "copyrightDate": "2019",
+            "publishDate": "2019-12-09",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Su Yandeamiao",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Literature and Fiction",
+                    "description": "Literature and Fiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Romance",
+                    "description": "Romance",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "FICTION / Romance / General",
+                    "description": "FICTION / Romance / General",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [
+                "US"
+            ],
+            "numPages": null,
+            "copyright": "Funstory",
+            "publisher": "Funstory",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": null,
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": [
+                {
+                    "brailleCode": "",
+                    "brailleGrade": "",
+                    "brailleMusicScoreLayout": "",
+                    "brailleType": "",
+                    "dateAdded": null,
+                    "duration": "PT5H49M23S",
+                    "externalIdentifierCode": null,
+                    "format": "DAISY_2_AUDIO",
+                    "fundingSource": null,
+                    "globalBookServiceId": "1662-Y001288",
+                    "narrator": {
+                        "gender": "male",
+                        "name": "Daniel Schreiber",
+                        "type": "human"
+                    },
+                    "numberOfVolumes": null,
+                    "producer": "AVH, 26/11/2014 16:05:51.",
+                    "supplier": "ABC",
+                    "transcriber": null
+                }
+            ],  
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-09T23:00:00Z",
+            "numImages": 1,
+            "dtbookSize": 1774798,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958969"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958969/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/bad/medium/2958969.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/bad/small/2958969.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 12,
+            "title": "The SAGE International Encyclopedia of Mass Media and Society",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "Debra",
+                    "lastName": "Merskin",
+                    "middle": "L.",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781483375557",
+            "synopsis": "The SAGE International Encyclopedia of Mass Media and Society discusses media around the world in their varied forms—newspapers, magazines, radio, television, film, books, music, websites, social media, mobile media—and describes the role of each in both mirroring and shaping society. This encyclopedia provides a thorough overview of media within social and cultural contexts, exploring the development of the mediated communication industry, mediated communication regulations, and societal interactions and effects. \r\n\r\nThis reference work will look at issues such as free expression and government regulation of media; how people choose what media to watch, listen to, and read; and how the influence of those who control media organizations may be changing as new media empower previously unheard voices. The role of media in society will be explored from international, multidisciplinary perspectives via approximately 700 articles drawing on research from communication and media studies, sociology, anthropology, social psychology, politics, and business.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2020",
+            "publishDate": "2019-12-09",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "DAISY_SEGMENTED",
+                    "name": "DAISY Segmented"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Debra L. Merskin",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                },
+                {
+                    "name": {
+                        "displayName": "Debra Merskin",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "editor"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Social Studies",
+                    "description": "Social Studies",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "SOCIAL SCIENCE / Media Studies",
+                    "description": "SOCIAL SCIENCE / Media Studies",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": "SAGE Publications, Inc.",
+            "publisher": "SAGE Publications",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": [
+                "9781483375540",
+                "9781483375533",
+                "9781483375526"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": [
+                {
+                    "brailleCode": "UEB",
+                    "brailleGrade": "uncontracted",
+                    "brailleMusicScoreLayout": "",
+                    "brailleType": "TRANSCRIBED",
+                    "dateAdded": null,
+                    "duration": "",
+                    "externalIdentifierCode": null,
+                    "format": "BRF",
+                    "fundingSource": null,
+                    "globalBookServiceId": null,
+                    "narrator": null,
+                    "numberOfVolumes": null,
+                    "producer": null,
+                    "supplier": null,
+                    "transcriber": null
+                },
+                {
+                    "brailleCode": "",
+                    "brailleGrade": "",
+                    "brailleMusicScoreLayout": "",
+                    "brailleType": "",
+                    "dateAdded": null,
+                    "duration": "PT3H26M",
+                    "externalIdentifierCode": "TB024502",
+                    "format": "DAISY_2_AUDIO",
+                    "fundingSource": null,
+                    "globalBookServiceId": null,
+                    "narrator": {
+                        "gender": "female",
+                        "name": "Lucy Scott",
+                        "type": "human"
+                    },
+                    "numberOfVolumes": null,
+                    "producer": "Rnib",
+                    "supplier": null,
+                    "transcriber": null
+                }
+            ],
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-09T22:00:00Z",
+            "numImages": 28,
+            "dtbookSize": 25074126,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Sage",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958945"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958945/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/112/medium/2958945.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/112/small/2958945.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 13,
+            "title": "Political Handbook of the World 2015",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "Professor",
+                    "lastName": "Lansford",
+                    "middle": "Tom",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781483371566",
+            "synopsis": "The Political Handbook of the World provides timely, thorough, and accurate political information, with more in-depth coverage of current political controversies than any other reference guide. The updated 2015 edition will continue to be the most authoritative source for finding complete facts and analysis on each country’s governmental and political makeup. Compiling in one place more than 200 entries on countries and territories throughout the world, this volume is renowned for its extensive coverage of all major and minor political parties and groups in each political system. It also provides names of key ambassadors and international memberships of each country, plus detailed profiles of more than 30 intergovernmental organizations and UN agencies. And this annual update includes coverage of current events, issues, crises, and controversies from the course of this year.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2015",
+            "publishDate": "2019-12-09",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DAISY_SEGMENTED",
+                    "name": "DAISY Segmented"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Professor Tom Lansford",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                },
+                {
+                    "name": {
+                        "displayName": "Tom Lansford",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "editor"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Reference",
+                    "description": "Reference",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "REFERENCE / Yearbooks & Annuals",
+                    "description": "REFERENCE / Yearbooks & Annuals",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": "CQ Press, an imprint of SAGE. CQ Press is a registered trademark of Congressional Quarterly Inc.",
+            "publisher": "SAGE Publications",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": [
+                "9781483371580",
+                "9781483371573",
+                "9781483371559"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-09T21:00:00Z",
+            "numImages": 454,
+            "dtbookSize": 30899644,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Sage",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958944"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958944/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/adb/medium/2958944.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/adb/small/2958944.jpg"
+                }
+            ]
+        }
+    ],
+    "message": null,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://api.qa.bookshare.org/v2/catalog?api_key=ytvs9pzsd62bv7rzamwdkthe&limit=3&sortOrder=updatedDate&direction=desc"
+        },
+        {
+            "rel": "next",
+            "href": "https://api.qa.bookshare.org/v2/catalog?api_key=ytvs9pzsd62bv7rzamwdkthe&limit=3&sortOrder=updatedDate&direction=desc&start=Page1NextToken"
+        }
+    ]
+}

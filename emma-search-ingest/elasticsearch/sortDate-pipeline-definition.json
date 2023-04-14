@@ -1,0 +1,39 @@
+# https://www.elastic.co/guide/en/elasticsearch/painless/master/painless-ingest-processor-context.html
+# Coalesce the best candidate dates to get an approximation of when the content was most recently updated or "remediated"
+# Populate empty title sort definitions from existing title definitions
+# Number of pipelines is limited, so this combines the title and sort update
+
+PUT /_ingest/pipeline/sortDate
+{
+  "description": "Save best date for sortDate, alphanumeric title for sortTitle",
+  "processors": [
+    {
+      "script": {
+        "lang": "painless",
+        "source": """
+          // Unicode-compatible alphanumeric regex class
+          ctx.emma_sortTitle = /[^\p{Alnum} ]/.matcher(ctx.dc_title).replaceAll('').toLowerCase();
+          if (ctx.emma_indexLastUpdated != null) {
+              ctx.emma_sortDate = ctx.emma_indexLastUpdated.substring(0,19);
+          }
+          if (ctx.dcterms_dateAccepted != null) {
+              ctx.emma_sortDate = ctx.dcterms_dateAccepted;
+          }
+          if (ctx.emma_lastRemediationDate != null) {
+              ctx.emma_sortDate = ctx.emma_lastRemediationDate;
+          }
+        """
+      }
+    }
+  ]
+}
+
+# Set as default and check status
+
+PUT /emma-federated-index-alias-staging/_settings
+{
+  "index" : {
+    "default_pipeline" : "sortDate"
+  }
+}
+GET /emma-federated-index-alias-staging/_settings

@@ -1,0 +1,840 @@
+---
+components:
+  schemas:
+    DublinCoreFields:
+      description: Fields derived from Dublin Core metadata definitions.
+      properties:
+        dc_creator:
+          description: List of [creators](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/)
+            of the work
+          items:
+            type: string
+          type: array
+        dc_description:
+          description: '[Description](https://www.dublincore.org/specifications/dublin-cor\
+
+            e/dcmi-terms/terms/description/) of the work; typically a synopsis
+
+            '
+          type: string
+        dc_format:
+          $ref: '#/components/schemas/DublinCoreFormat'
+        dc_identifier:
+          description: List of standard [identifier](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/)
+            for a work.  In the case of
+          items:
+            $ref: '#/components/schemas/PublicationIdentifier'
+          type: array
+        dc_language:
+          items:
+            description: List of codes of the primary [language(s)](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/language/)
+              of the work, using the [ISO 639-2 3-character code](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+            pattern: ^[a-z]{3}$
+            type: string
+          type: array
+        dc_publisher:
+          description: The name of the [publisher](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/publisher/)
+          type: string
+        dc_relation:
+          description: List of standard [identifiers](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/relation/)
+            for related works
+          items:
+            $ref: '#/components/schemas/PublicationIdentifier'
+          type: array
+        dc_rights:
+          description: Ownership-based [usage rights](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/rights/)
+            on the work.  [See the Creative Commons site for descriptions of the specifics
+            of different Creative Commons licenses.](https://creativecommons.org/about/cclicenses/)
+            The generic `creativeCommons` value is [DEPRECATED].
+          enum:
+          - publicDomain
+          - creativeCommons
+          - ccBy
+          - ccBySa
+          - ccByNa
+          - ccByNcSa
+          - ccByNd
+          - cc0
+          - copyright
+          - embargo
+          - license
+          - other
+          type: string
+        dc_subject:
+          description: List of [subjects](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/subject/)
+            describing the work.
+          items:
+            type: string
+          type: array
+        dc_title:
+          description: "The\n[title](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/)\n\
+            of the work.  Refers to either a non-periodical work such as a book or\
+            \ movie, or the title of a work\nwithin a periodical, such as an article\
+            \ or episode.\n\nExamples:\n  - Book:\n     - `The Catcher in the Rye`\n\
+            \     - A book\n  - Movie:\n     - `Jaws`\n     - A movie\n  - Journal\
+            \ Article:\n     - `A Review of Discourse Markers from the Functional\
+            \ Perspective`\n     - Title of a an article appearing in the _Journal\
+            \ of Arts and Humanities_\n  - Podcast Episode:\n     - `741: The Weight\
+            \ of Words`\n     - Title of an episode in the podcast _This American\
+            \ Life_\n"
+          type: string
+        dc_type:
+          description: '[DEPRECATED] [Type](https://www.dublincore.org/specifications/dublin-core/dcmi-\
+
+            terms/terms/type/) of this instance of the work
+
+            Use `emma_workType` instead.
+
+            '
+          enum:
+          - text
+          - sound
+          - collection
+          - dataset
+          - event
+          - image
+          - interactiveResource
+          - service
+          - physicalObject
+          - stillImage
+          - movingImage
+          type: string
+        dcterms_dateAccepted:
+          description: '[Date](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/dateAccepted/)
+            that the work was accepted into the repository, using [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            format (YYYY-MM-DD)'
+          format: date
+          type: string
+        dcterms_dateCopyright:
+          description: '[DEPRECATED] The 4-digit year that the work was copyrighted
+
+            Use `emma_publicationDate` instead.
+
+            '
+          pattern: ^[0-9]{4}$
+          type: string
+      title: Dublin Core fields
+      type: object
+    DublinCoreFormat:
+      description: '[Format](https://www.dublincore.org/specifications/dublin-core/dcm\
+
+        i-terms/terms/format/) of this instance of the work.
+
+        * `brf` - Braille Ready Format
+
+        * `daisy` - [DAISY](https://daisy.org) digital talking book
+
+        * `daisyAudio` - DAISY book with audio files
+
+        * `epub` - EPUB digital document
+
+        * `braille` - Braille formats that are not BRF (such as printed)
+
+        * `pdf` - PDF
+
+        * `word` - Microsoft Word
+
+        * `tactile` - Tactile graphics
+
+        * `kurzweil` - Kurzweil file format
+
+        * `rtf` - Rich text format
+
+        * `grayscalePdf` - [DEPRECATED] Use pdf instead.
+
+        '
+      enum:
+      - brf
+      - daisy
+      - daisyAudio
+      - epub
+      - braille
+      - pdf
+      - grayscalePdf
+      - word
+      - tactile
+      - kurzweil
+      - rtf
+      type: string
+    EmmaCommonFields:
+      description: Fields created for the EMMA project.
+      properties:
+        emma_collection:
+          description: A set of works within a repository
+          items:
+            type: string
+          type: array
+        emma_formatFeature:
+          description: 'List of features of the format used by this instance of this
+            work
+
+            * `tts` - Audio generated via Text-to-Speech
+
+            * `human` - Audio read by a human
+
+            * `grade1` - Grade 1 (contracted) Braille
+
+            * `grade2` - Grade 2 (uncontracted) Braille
+
+            * `nemeth` - Nemeth Braille Code for Mathematics and Science Notation
+
+            * `ueb` - Unified English Braille
+
+            * `ebae` - English Braille American Edition (Literary Code)
+
+            * `music` - Music Braille Code.  Could also describe a music subtype of
+            another dc_format.
+
+            * `imagePdf` - PDF that has been scanned as images with no differentiated
+            text
+
+            * `digitalTextPdf` - PDF that contains digital text
+
+            * `literary` - [DEPRECATED] Use `ebae`.
+
+            * `technical` - [DEPRECATED] use `ueb` and/or `nemeth` as applicable.
+
+            '
+          items:
+            enum:
+            - tts
+            - human
+            - grade1
+            - grade2
+            - nemeth
+            - ueb
+            - ebae
+            - music
+            - imagePdf
+            - digitalTextPdf
+            - literary
+            - technical
+            type: string
+          type: array
+        emma_formatVersion:
+          $ref: '#/components/schemas/EmmaFormatVersion'
+        emma_lastRemediationDate:
+          description: '[DEPRECATED] Date that this work was remediated.  Use `rem_remediationDate`
+            instead.
+
+            '
+          format: date
+          type: string
+        emma_lastRemediationNote:
+          description: '[DEPRECATED] Comments regarding the remediation on this work.  Use
+            `rem_comments` instead.
+
+            '
+          type: string
+        emma_publicationDate:
+          description: 'The date that this work was published.  This is an
+
+            [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
+            (YYYY-MM-DD) date or a 4-digit year.
+
+            '
+          format: date
+          type: string
+        emma_repository:
+          $ref: '#/components/schemas/EmmaRepository'
+        emma_repositoryMetadataUpdateDate:
+          description: '[DEPRECATED] Use `emma_repositoryUpdateDate` instead. Date
+            that this metadata was last updated in the source repository
+
+            '
+          format: date
+          type: string
+        emma_repositoryRecordId:
+          $ref: '#/components/schemas/EmmaRepositoryRecordId'
+        emma_repositoryUpdateDate:
+          description: Date that this metadata was last updated in the source repository
+          format: date
+          type: string
+        emma_retrievalLink:
+          description: Link to download an actual work from a repository
+          format: uri
+          type: string
+        emma_sortDate:
+          description: Last date that the work or this index was updated, guaranteeing
+            a non-null value. If available, this defaults to the same value as last
+            remediation date.  If not available, it defaults to date accepted.  If
+            date accepted is not available, it defaults to the date that the record
+            was last updated in this index. The value of sort date is determined at
+            indexing time, and does not need to be sent through the ingestion API.
+          format: date
+          type: string
+        emma_version:
+          description: 'Denotes a version or edition for a non-periodical work or
+            a single issue or episode.
+
+
+            Examples:
+
+            - `Student Edition`
+
+            - `2e`
+
+            - `InitialPub`
+
+            - `Corrected`
+
+            - `Augmented`
+
+            '
+          type: string
+        emma_webPageLink:
+          description: Link to a web page which describes a work from a repository
+          format: uri
+          type: string
+        emma_workType:
+          description: 'Describes the type of work.
+
+            '
+          enum:
+          - book
+          - video
+          - article
+          - podcast
+          type: string
+      title: Common Emma Fields
+      type: object
+    EmmaFormatVersion:
+      description: Version of the format used by this instance of this work
+      type: string
+    EmmaRecordIdentifier:
+      description: The unique identifier for a metadata record within the EMMA Federated
+        Search Index.  Not guaranteed to have any particular format.
+      title: EMMA metadata record identifier
+      type: string
+    EmmaRepository:
+      description: Identifier for a repository
+      enum:
+      - bookshare
+      - hathiTrust
+      - internetArchive
+      - emma
+      - ace
+      type: string
+    EmmaRepositoryRecordId:
+      description: The unique identifier for a work within a repository
+      type: string
+    IdentifierRecord:
+      description: Schema to identify a single metadata record in the EMMA Federated
+        Search index, for deleting or retrieval, for example.
+      oneOf:
+      - properties:
+          emma_recordId:
+            $ref: '#/components/schemas/EmmaRecordIdentifier'
+        required:
+        - emma_recordId
+      - properties:
+          dc_format:
+            $ref: '#/components/schemas/DublinCoreFormat'
+          emma_formatVersion:
+            $ref: '#/components/schemas/EmmaFormatVersion'
+          emma_repository:
+            $ref: '#/components/schemas/EmmaRepository'
+          emma_repositoryRecordId:
+            $ref: '#/components/schemas/EmmaRepositoryRecordId'
+        required:
+        - emma_repository
+        - emma_repositoryRecordId
+        - dc_format
+      title: Metadata to uniquely identify a record in the EMMA Federated Search Index
+      type: object
+    IdentifierRecordList:
+      description: List of metadata record identifiers
+      items:
+        $ref: '#/components/schemas/IdentifierRecord'
+      title: List of identifier records
+      type: array
+    IngestionRecord:
+      allOf:
+      - $ref: '#/components/schemas/MetadataCommonRecord'
+      description: Schema for JSON metadata records to be submitted to the EMMA Federated
+        Search Index ingestion service.
+      required:
+      - emma_repository
+      - emma_repositoryRecordId
+      - emma_retrievalLink
+      - dc_title
+      - dc_format
+      title: Metadata ingestion schema for EMMA Federated Search Index
+      type: object
+    IngestionRecordList:
+      description: List of metadata ingestion records
+      items:
+        $ref: '#/components/schemas/IngestionRecord'
+      title: Metadata ingestion record list request
+      type: array
+    MetadataCommonRecord:
+      allOf:
+      - $ref: '#/components/schemas/EmmaCommonFields'
+      - $ref: '#/components/schemas/DublinCoreFields'
+      - $ref: '#/components/schemas/PeriodicalFields'
+      - $ref: '#/components/schemas/SchemaOrgFields'
+      - $ref: '#/components/schemas/RemediationFields'
+      description: Fields common to metadata ingestion records and search results.
+      title: Metadata Common Fields
+      type: object
+    MetadataRecord:
+      allOf:
+      - properties:
+          emma_recordId:
+            $ref: '#/components/schemas/EmmaRecordIdentifier'
+          emma_titleId:
+            description: The unique identifier for a work within the EMMA Federated
+              Search Index
+            type: string
+          related_records:
+            description: '[EXPERIMENTAL] a group of records with the same emma_repositoryRecordId
+              or emma_titleId
+
+              '
+            items:
+              allOf:
+              - properties:
+                  emma_recordId:
+                    $ref: '#/components/schemas/EmmaRecordIdentifier'
+                  emma_titleId:
+                    description: The unique identifier for a work within the EMMA
+                      Federated Search Index
+                    type: string
+              - $ref: '#/components/schemas/MetadataCommonRecord'
+              type: object
+            type: array
+      - $ref: '#/components/schemas/MetadataCommonRecord'
+      - required:
+        - emma_recordId
+      description: Schema for JSON documents which are retrieved from the EMMA Federated
+        Search Index ingestion service.
+      title: Metadata record schema for EMMA Federated Search Index
+      type: object
+    PeriodicalFields:
+      description: Information related to periodical works, such as journals, magazines,
+        and television and podcast series.
+      properties:
+        periodical:
+          description: 'True if we should treat this work like an article, issue,
+            or episode of a periodical; False or absent otherwise.
+
+            '
+          type: boolean
+      title: Periodical Fields
+      type: object
+    PeriodicalIdentifier:
+      description: 'The lowercase scheme and identifier for a journal, magazine, or
+        other series.
+
+        Only alphanumeric characters are accepted. No spaces or other symbols are
+        accepted.
+
+        Dashes will be stripped from the stored identifier.
+
+        Accepted schemes are ISSN, UPC, OCLC, and DOI.
+
+
+        Examples:
+
+        - ISSN: `issn:1538-3598`
+
+        - UPC: `upc:025192251344`
+
+        - OCLC: `oclc:231854281`
+
+        - DOI: `doi:10.1001/jama` or or `doi:https://doi.org/10.1001/jama.2021`
+
+        '
+      pattern: ^((issn|upc):[0-9Xx\-]{8,17}|oclc:\d{1,14}|doi:(https:\/\/doi.org\/)?10\.\d{4,}.{0,300})$
+      title: Periodical Identifier
+      type: string
+    PublicationIdentifier:
+      description: 'The lowercase scheme and identifier for a non-periodical publication
+        or single episode or issue
+
+        of a periodical. Only alphanumeric characters are accepted. No spaces or other
+        symbols are accepted.
+
+        Dashes will be stripped from the stored identifier.
+
+        Accepted schemes are ISBN, LCCN, UPC, OCLC, and DOI.  ISSN is deprecated in
+        this field.
+
+
+        Examples:
+
+        - ISBN: `isbn:9788665654189`
+
+        - LCCN: `lccn:a2002003456`
+
+        - UPC: `upc:025192251344`
+
+        - OCLC: `oclc:1089556637`
+
+        - DOI: `doi:10.1001/jama.2021.15187` or `doi:https://doi.org/10.1001/jama.2021.15187`
+
+        '
+      pattern: ^((isbn|upc|issn):[0-9Xx\-]{8,17}|lccn:[a-zA-Z0-9]{1,12}|oclc:\d{1,14}|doi:(https:\/\/doi.org\/)?10\.\d{4,}.{0,300})$
+      title: Non-Periodical Publication Identifier
+      type: string
+    RemediationFields:
+      description: Detailed information about what remediation has been performed
+        on this specific work.
+      properties:
+        rem_comments:
+          description: Comments regarding the remediation on this work
+          type: string
+        rem_complete:
+          description: True if the submission is a presentation of the entire original
+            work; false if the submission only covers certain sections or chapters,
+            or contains gaps or omissions.
+          type: boolean
+        rem_coverage:
+          description: For a submission which does not present the entire original
+            work, describe the part(s) which are covered by the submission.
+          type: string
+        rem_metadataSource:
+          description: List of the origins of the metadata for the original creative
+            work on which the remediated file was based.
+          items:
+            type: string
+          type: array
+        rem_remediatedAspects:
+          description: List of the remediations that are provided in this submission.
+          items:
+            enum:
+            - scannedAndOcrd
+            - proofreadCorrectedOcr
+            - addedBookmarks
+            - taggedPdf
+            - addedImageDescriptions
+            - structuredHeadings
+            - linkedToc
+            - fixedTables
+            - addedMathMl
+            - foreignLanguageMarkup
+            - transcribersNotes
+            - annotations
+            type: string
+          type: array
+        rem_remediatedBy:
+          description: List of the the origins of the remediated file, normally identifies
+            the DSO.
+          items:
+            type: string
+          type: array
+        rem_remediationDate:
+          description: Date that this work was remediated.  This is an [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            format (YYYY-MM-DD) date.
+          format: date
+          type: string
+        rem_source:
+          description: The origin of the content on which the remediated file was
+            based.
+          enum:
+          - bookshare
+          - hathiTrust
+          - internetArchive
+          - emma
+          - accessTextNetwork
+          - publisher
+          - purchased
+          - faculty
+          - student
+          - library
+          - otherDso
+          - other
+          type: string
+        rem_status:
+          description: The remediation status of submitted file.
+          enum:
+          - remediated
+          - notRemediated
+          - bornAccessible
+          type: string
+        rem_textQuality:
+          description: "A measure of the quality of the original file on which the\
+            \ submission was based.\n  * `rawOcr` - Raw OCR; scanned with OCR but\
+            \ not otherwise processed\n  * `cleanedOcr` - Cleaned OCR\n  * `rekeyed`\
+            \ - Rekeyed\n  * `proofread` - Proofread\n  * `published` - Received in\
+            \ an electronic format from the publisher\n"
+          enum:
+          - rawOcr
+          - cleanedOcr
+          - rekeyed
+          - proofread
+          - published
+          type: string
+      title: Remediation Fields
+      type: object
+    SchemaOrgFields:
+      description: Fields derived from schema.org accessibility metadata definitions.
+      properties:
+        s_accessMode:
+          description: How the user can perceive this instance of the work as described
+            in the schema.org [Access Mode specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          items:
+            enum:
+            - auditory
+            - chartOnVisual
+            - chemOnVisual
+            - colorDependent
+            - diagramOnVisual
+            - mathOnVisual
+            - musicOnVisual
+            - tactile
+            - textOnVisual
+            - textual
+            - visual
+            type: string
+          type: array
+        s_accessModeSufficient:
+          description: A list of single or combined access modes that are sufficient
+            to understand all the intellectual content of a resource as described
+            in the schema.org [Access Mode Sufficient specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29)
+          items:
+            enum:
+            - auditory
+            - tactile
+            - textual
+            - visual
+            type: string
+          type: array
+        s_accessibilityAPI:
+          description: List of accessibility APIs of this instance as derived from
+            to the schema.org [Accessibility API specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          items:
+            enum:
+            - ARIA
+            type: string
+          type: array
+        s_accessibilityControl:
+          description: List of accessibility controls of this instance derived from
+            to the schema.org [Accessibility Control specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          items:
+            enum:
+            - fullAudioControl
+            - fullKeyboardControl
+            - fullMouseControl
+            - fullTouchControl
+            - fullVideoControl
+            - fullSwitchControl
+            - fullVoiceControl
+            type: string
+          type: array
+        s_accessibilityFeature:
+          description: List of accessibility features of this instance derived from
+            the schema.org [Accessibility Feature specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          items:
+            enum:
+            - alternativeText
+            - annotations
+            - audioDescription
+            - bookmarks
+            - braille
+            - captions
+            - ChemML
+            - describedMath
+            - displayTransformability
+            - displayTransformability/background-color
+            - displayTransformability/color
+            - displayTransformability/font-height
+            - displayTransformability/font-size
+            - displayTransformability/line-height
+            - displayTransformability/word-spacing
+            - highContrastAudio
+            - highContrastDisplay
+            - index
+            - largePrint
+            - latex
+            - longDescription
+            - MathML
+            - physicalObject
+            - printPageNumbers
+            - readingOrder
+            - rubyAnnotations
+            - signLanguage
+            - sound
+            - stillImage
+            - structuralNavigation
+            - synchronizedAudioText
+            - tableOfContents
+            - tactileGraphic
+            - tactileObject
+            - taggedPDF
+            - timingControl
+            - transcript
+            - ttsMarkup
+            - unlocked
+            type: string
+          type: array
+        s_accessibilityHazard:
+          description: List of accessibility hazards of this instance as derived from
+            to the schema.org [Accessibility Hazard specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          items:
+            enum:
+            - flashing
+            - noFlashingHazard
+            - motionSimulation
+            - noMotionSimulationHazard
+            - sound
+            - noSoundHazard
+            type: string
+          type: array
+        s_accessibilitySummary:
+          description: Human-readable summary of accessibility features or deficiencies
+            of this instance of the work as described in the schema.org [Accessibility
+            Summary specification](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29)
+          type: string
+      title: Schema.org fields
+      type: object
+info:
+  contact:
+    email: bookshare-developers@benetech.org
+  description: API for submitting metadata to the EMMA Federated Search Index
+  license:
+    name: TBD
+  title: EMMA Federated Index Ingestion API
+  version: 0.0.6
+openapi: 3.0.0
+paths:
+  /recordDeletes:
+    post:
+      description: Deletes one or more metadataRecords in the search index. Records
+        are uniquely identified by the emma_repository, emma_repositoryRecordId, dc_format,
+        and emma_formatVersion.  emma_formatVersion is optional.   The number of records
+        to be deleted at once is capped at 1000.
+      operationId: deleteRecords
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IdentifierRecordList'
+        description: Metadata identifier record
+      responses:
+        '202':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: If applicable, a list of "not found" records that could
+                  not be deleted will appear in the result body.  Otherwise the result
+                  body will be empty.
+                type: object
+          description: Items accepted for deletion.
+        '207':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: May be returned by upsert or delete operation.  List
+                  of errors, mapped to the numbered metadata record in the order received
+                type: object
+          description: Some items deleted
+        '400':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: List of errors, mapped to the numbered metadata record
+                  in the order received
+                type: object
+          description: Invalid input
+      summary: Deletes metadata records in the search index
+      tags:
+      - ingestion
+  /recordGets:
+    post:
+      description: Retrieves one or more metadataRecords in the search index. Records
+        are uniquely identified by the emma_repository, emma_repositoryRecordId, dc_format,
+        and emma_formatVersion.  emma_formatVersion is optional.  The number of records
+        to be retrieved at once is capped at 1000.
+      operationId: getRecords
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IdentifierRecordList'
+        description: Metadata identifier record
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                description: May be returned by upsert operation.  List of errors,
+                  mapped to the numbered metadata record in the order received
+                items:
+                  $ref: '#/components/schemas/MetadataRecord'
+                type: array
+          description: Items retrieved
+        '400':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: List of errors, mapped to the numbered metadata record
+                  in the order received
+                type: object
+          description: Invalid input
+      summary: Retrieves metadata records in the search index
+      tags:
+      - ingestion
+  /records:
+    put:
+      description: Inserts, or updates one or more metadataRecords in the search index.  For
+        the upsert operation, if no such record exists for the emma_repository, emma_repositoryRecordId,
+        dc_format, and emma_formatVersion, a record is created.  Otherwise the existing
+        record is updated. emma_formatVersion is optional.  The number of records
+        to be updated at once is capped at 1000.
+      operationId: upsertRecords
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IngestionRecordList'
+        description: Ingestion metadata record
+      responses:
+        '202':
+          description: Items accepted for update.
+        '207':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: List of errors, mapped to the numbered metadata record
+                  in the order received
+                type: object
+          description: Some items inserted or updated
+        '400':
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  items:
+                    type: string
+                  type: array
+                description: List of errors, mapped to the numbered metadata record
+                  in the order received
+                type: object
+          description: Invalid input
+      summary: Inserts or updates metadata records in the search index
+      tags:
+      - ingestion
+tags:
+- description: Operations on metadata submitted to EMMA federated search index
+  name: ingestion

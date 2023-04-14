@@ -1,0 +1,345 @@
+{
+    "totalResults": 8,
+    "limit": 3,
+    "next": "Page2NextToken",
+    "allows": null,
+    "titles": [
+        {
+            "allows": null,
+            "bookshareId": 21,
+            "title": "Cultivating Communication in the Classroom: Future-Ready Skills for Secondary Students (Corwin Teaching Essentials)",
+            "subtitle": "Future-Ready Skills for Secondary Students",
+            "authors": [
+                {
+                    "firstName": "Lisa",
+                    "lastName": "Johnson",
+                    "middle": "Ann",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781506356389",
+            "synopsis": "Building 21st Century communication skills \n\nStudents are expected to be innovators, creative thinkers, and problem solvers. But what if they can't communicate their ideas persuasively? Knowing how to share ideas is as crucial as the ideas themselves. Unfortunately, many students don’t get explicit opportunities to hone this skill. \n\nCultivating Communication in the Classroom will help educators design authentic learning experiences that allow students to practice their skills. Readers will find:\n\n    Real world insights into how students will be expected to communicate in their future careers and education \n    Strategies for teaching communication skills throughout the curriculum\n    Communication Catchers for igniting ideas",
+            "seriesTitle": "Corwin Teaching Essentials",
+            "seriesNumber": null,
+            "copyrightDate": "2017",
+            "publishDate": "2019-12-09",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Lisa Ann Johnson",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Computers and Internet",
+                    "description": "Computers and Internet",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Education",
+                    "description": "Education",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Technology",
+                    "description": "Technology",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "EDUCATION / Computers & Technology",
+                    "description": "EDUCATION / Computers & Technology",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": "Lisa Johnson",
+            "publisher": "SAGE Publications",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": [
+                "9781506356372",
+                "9781506356365",
+                "9781506356396"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-09",
+            "numImages": 116,
+            "dtbookSize": 1132303,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Sage",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958943"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958943/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/491/medium/2958943.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/491/small/2958943.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 22,
+            "title": "Essentials of Statistics for Criminology and Criminal Justice",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "Raymond",
+                    "lastName": "Paternoster",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                },
+                {
+                    "firstName": "Ronet",
+                    "lastName": "Bachman",
+                    "middle": "D.",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781506377148",
+            "synopsis": "Essentials of Statistics for Criminology and Criminal Justice helps students understand the vital role that research and statistics play in the study of criminology and criminal justice by showing them how to conduct and interpret statistics in real-world settings with a step-by-step approach to solving problems. This practical, applied approach offers students the fundamentals of descriptive and inferential statistics in a concise and easy-to-understand format—avoiding complicated proofs and discussions of statistical theory. The examples and case studies provide relevant examples for criminology and criminal justice students, and deal with contemporary issues related to crime, corrections, police, and the judicial system. Students will not only learn about the “how to” in statistics, but they will also recognize its importance in today’s criminal justice system.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2018",
+            "publishDate": "2019-12-09",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DAISY_SEGMENTED",
+                    "name": "DAISY Segmented"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Raymond Paternoster",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                },
+                {
+                    "name": {
+                        "displayName": "Ronet D. Bachman",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Mathematics and Statistics",
+                    "description": "Mathematics and Statistics",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Sociology",
+                    "description": "Sociology",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "SOCIAL SCIENCE / Statistics",
+                    "description": "SOCIAL SCIENCE / Statistics",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": "SAGE Publications, Inc.",
+            "publisher": "SAGE Publications",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": [
+                "9781506377131",
+                "9781506377155",
+                "9781506365473"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-09",
+            "numImages": 303,
+            "dtbookSize": 7962726,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Sage",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958941"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2958941/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/8c4/medium/2958941.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/8c4/small/2958941.jpg"
+                }
+            ]
+        }
+    ],
+    "message": null,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://api.qa.bookshare.org/v2/catalog?api_key=ytvs9pzsd62bv7rzamwdkthe&limit=3&sortOrder=updatedDate&direction=desc&start=Page1NextToken"
+        },
+        {
+            "rel": "next",
+            "href": "https://api.qa.bookshare.org/v2/catalog?api_key=ytvs9pzsd62bv7rzamwdkthe&limit=3&sortOrder=updatedDate&direction=desc&start=Page2NextToken"
+        }
+    ]
+}

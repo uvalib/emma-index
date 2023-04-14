@@ -1,0 +1,29 @@
+aws events list-rules --profile emma --region us-east-1
+{
+    "Rules": [
+        {
+            "Name": "Every_15_minutes",
+            "Arn": "{{REDACTED}}",
+            "State": "ENABLED",
+            "Description": "Goes off every 15 minutes",
+            "ScheduleExpression": "rate(15 minutes)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Every_5_Minutes",
+            "Arn": "{{REDACTED}}",
+            "State": "ENABLED",
+            "Description": "Go off every 5 minutes",
+            "ScheduleExpression": "rate(5 minutes)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Every_60_Minutes",
+            "Arn": "{{REDACTED}}",
+            "State": "ENABLED",
+            "Description": "Go off every hour",
+            "ScheduleExpression": "rate(1 hour)",
+            "EventBusName": "default"
+        }
+    ]
+}

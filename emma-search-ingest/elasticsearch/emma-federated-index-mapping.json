@@ -1,0 +1,230 @@
+#PUT /emma-federated-index
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "identifierAnalyzer": {
+          "type": "custom",
+          "tokenizer": "keyword",
+          "char_filter": [],
+          "filter": [
+            "lowercase",
+            "isbnAndNumeric"
+          ]
+        }
+      },
+      "filter": {
+        "isbnAndNumeric": {
+          "type": "pattern_replace",
+          "pattern": "[^0-9Xx]",
+          "replacement": ""
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "emma_recordId": {
+        "type": "keyword"
+      },
+      "emma_titleId": {
+        "type": "keyword"
+      },
+      "emma_repository": {
+        "type": "keyword"
+      },
+      "emma_collection": {
+        "type": "keyword"
+      },
+      "emma_repositoryRecordId": {
+        "type": "keyword"
+      },
+      "emma_repositoryUpdateDate": {
+        "type": "date"
+      },
+      "emma_retrievalLink": {
+        "type": "keyword"
+      },
+      "emma_webPageLink": {
+        "type": "keyword"
+      },
+      "emma_lastRemediationDate": {
+        "type": "date"
+      },
+      "emma_lastRemediationNote": {
+        "type": "text"
+      },
+      "emma_formatVersion": {
+        "type": "keyword"
+      },
+      "emma_formatFeature": {
+        "type": "keyword"
+      },
+      "emma_workType": {
+        "type": "keyword"
+      },
+      "emma_indexLastUpdated": {
+        "type": "date"
+      },
+      "emma_publicationDate": {
+        "type": "date"
+      },
+      "emma_sortDate": {
+        "type": "date"
+      },
+      "emma_sortTitle": {
+        "type": "keyword"
+      },
+      "dc_title": {
+        "type": "text",
+        "fields": {
+          "text": {
+            "type": "text"
+          },
+          "raw": {
+            "type": "keyword"
+          },
+          "en": {
+            "type": "text",
+            "analyzer": "english"
+          }
+        }
+      },
+      "dc_creator": {
+        "type": "text",
+        "fields": {
+          "text": {
+            "type": "text"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "dc_identifier": {
+        "type": "keyword",
+        "fields": {
+          "numeric": {
+            "type": "text",
+            "analyzer": "identifierAnalyzer"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "dc_publisher": {
+        "type": "text",
+        "fields": {
+          "text": {
+            "type": "text"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "dc_relation": {
+        "type": "keyword",
+        "fields": {
+          "numeric": {
+            "type": "text",
+            "analyzer": "identifierAnalyzer"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "dc_language": {
+        "type": "keyword"
+      },
+      "dc_rights": {
+        "type": "keyword"
+      },
+      "dc_description": {
+        "type": "text"
+      },
+      "dc_format": {
+        "type": "keyword"
+      },
+      "dc_type": {
+        "type": "keyword"
+      },
+      "dc_subject": {
+        "type": "text",
+        "fields": {
+          "text": {
+            "type": "text"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "dcterms_dateAccepted": {
+        "type": "date"
+      },
+      "dcterms_dateCopyright": {
+        "type": "date"
+      },
+      "s_accessibilityFeature": {
+        "type": "keyword"
+      },
+      "s_accessibilityControl": {
+        "type": "keyword"
+      },
+      "s_accessibilityHazard": {
+        "type": "keyword"
+      },
+      "s_accessibilityAPI": {
+        "type": "keyword"
+      },
+      "s_accessibilitySummary": {
+        "type": "keyword"
+      },
+      "s_accessMode": {
+        "type": "keyword"
+      },
+      "s_accessModeSufficient": {
+        "type": "keyword"
+      }
+      "rem_source": {
+        "type": "text"
+      },
+      "rem_metadataSource": {
+        "type": "text"
+      },
+      "rem_remediatedBy": {
+        "type": "text"
+      },
+      "rem_complete": {
+        "type": "boolean"
+      },
+      "rem_coverage": {
+        "type": "text"
+      },
+      "rem_remediatedAspects": {
+        "type": "keyword"
+      },
+      "rem_quality": {
+        "type": "keyword"
+      },
+      "rem_status": {
+        "type": "keyword"
+      },
+      "rem_comments" : {
+          "type" : "alias",
+          "path" : "emma_lastRemediationNote"
+      },
+      "emma_repositoryUpdateDate" : {
+          "type" : "alias",
+          "path" : "emma_repositoryMetadataUpdateDate"
+      },
+      "rem_remediationDate" : {
+        "type" : "alias",
+        "path" : "emma_lastRemediationDate"
+      }
+    }
+  }
+}

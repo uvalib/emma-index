@@ -1,0 +1,66 @@
+[
+  {
+    "emma_titleId": "100002",
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "32482",
+    "emma_retrievalLink": "https://www.bookshare.org/browse/book/32480",
+    "dc_title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+    "dc_identifier": [
+      "isbn:978-0877795964",
+      "doi:10.1234a;lsdkfjaldkjs;af"
+    ],
+    "dc_language": [
+      "eng"
+    ],
+    "dc_format": "brf",
+    "dcterms_dateCopyright": "2020"
+  },
+  {
+    "emma_titleId": "100003",
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "32483",
+    "emma_retrievalLink": "https://www.bookshare.org/browse/book/32480",
+    "dc_title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+    "dc_identifier": [
+      "isbn:978-0877-795-96-4"
+    ],
+    "dc_language": [
+      "fra"
+    ],
+    "dc_format": "brf",
+    "dcterms_dateCopyright": "1777"
+  },
+  {
+    "emma_titleId": "100004",
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "32484",
+    "emma_retrievalLink": "https://www.bookshare.org/browse/book/32480",
+    "dc_title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+    "dc_identifier": [
+      "oclc:973669630"
+    ],
+    "dc_language": [
+      "spa"
+    ],
+    "dc_format": "brf",
+    "dcterms_dateCopyright": "1900"
+  },
+    {
+    "emma_titleId": "100005",
+    "emma_repository": "bookshare",
+    "emma_repositoryRecordId": "32484",
+    "emma_retrievalLink": "https://www.bookshare.org/browse/book/32480",
+    "dc_title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+    "dc_identifier": [
+      "doi:10.2438"
+    ],
+    "dc_relation": [
+      "doi:10.242342a.:.:2309482309asdfaad"
+    ],
+    "dc_language": [
+      "spa"
+    ],
+    "dc_format": "brf",
+    "dcterms_dateCopyright": "1900"
+  }
+]

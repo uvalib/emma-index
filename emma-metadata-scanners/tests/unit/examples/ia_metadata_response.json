@@ -1,0 +1,362 @@
+{
+    "created": 1579185301,
+    "d1": "ia903003.us.archive.org",
+    "d2": "ia803003.us.archive.org",
+    "dir": "/35/items/siraurelsteinarc0000mirs",
+    "files": [
+        {
+            "name": "__ia_thumb.jpg",
+            "source": "original",
+            "mtime": "1552503248",
+            "size": "10098",
+            "format": "Item Tile",
+            "rotation": "0",
+            "md5": "21bd49a3f5d00f6d1be412b9e7141b99",
+            "crc32": "0888fee9",
+            "sha1": "93ae960d1cd889c2b7aade0f96e8bd2d05166116"
+        },
+        {
+            "name": "logs\/siraurelsteinarc0000mirs_iabdash_2019-03-1310:35:02.log",
+            "source": "original",
+            "mtime": "1552444508",
+            "size": "1341",
+            "md5": "5b4fe6c03fc687e493b5c9c16dfdf175",
+            "crc32": "07970be3",
+            "sha1": "baa334c6df569b0aa1daaf00fcf79737b07bbf2c",
+            "format": "Log",
+            "private": "true"
+        },
+        {
+            "name": "logs\/siraurelsteinarc0000mirs_scanning_2019-03-1310:34:51.log",
+            "source": "original",
+            "mtime": "1552444503",
+            "size": "1524200",
+            "md5": "2762c71eaf8862f53e9bf5a993ea249a",
+            "crc32": "9265bdb2",
+            "sha1": "8cf61cda0d280d4f63c211984bc49312d7a81ca5",
+            "format": "Log",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs.pdf",
+            "source": "derivative",
+            "format": "Text PDF",
+            "original": "siraurelsteinarc0000mirs_abbyy.gz",
+            "mtime": "1552502526",
+            "size": "30166275",
+            "md5": "c1bf2b7fe3a1b7c49eb3dc4b27c15500",
+            "crc32": "cde71ebf",
+            "sha1": "433be86eb4c2dad5799405989b883f0bb612c4c2",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_abbyy.gz",
+            "source": "derivative",
+            "format": "Abbyy GZ",
+            "original": "siraurelsteinarc0000mirs_jp2.zip",
+            "mtime": "1552494916",
+            "size": "22185768",
+            "md5": "e23d5d44512999430aaf92ecb24d7303",
+            "crc32": "be6777dc",
+            "sha1": "a06ce80cb07cc62a57eda29a7918cb912d6f5451",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_dc.xml",
+            "source": "original",
+            "format": "Dublin Core",
+            "mtime": "1552483501",
+            "size": "1070",
+            "md5": "00cf1ad80db5d82930dc78b1958435eb",
+            "crc32": "31b762db",
+            "sha1": "69c5e91c022a10ce39c5e877affef59618d94470"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_djvu.txt",
+            "source": "derivative",
+            "format": "DjVuTXT",
+            "original": "siraurelsteinarc0000mirs_djvu.xml",
+            "mtime": "1552503239",
+            "size": "1533505",
+            "md5": "b6ae7436d4bfcbea8fd614b1008b83af",
+            "crc32": "d2ca87e6",
+            "sha1": "390e1e950507e9ae311541522975b44a2efffb01",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_djvu.xml",
+            "source": "derivative",
+            "format": "Djvu XML",
+            "original": "siraurelsteinarc0000mirs_abbyy.gz",
+            "mtime": "1552503212",
+            "size": "14326515",
+            "md5": "034037e34c7948b1e745005b6c922406",
+            "crc32": "b4e20f17",
+            "sha1": "b8971e2732eb3bdd6d79c9c407499b1fba155e44",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_encrypted.epub",
+            "source": "derivative",
+            "format": "ACS Encrypted EPUB",
+            "original": "siraurelsteinarc0000mirs_abbyy.gz",
+            "mtime": "1552502728",
+            "size": "2231647",
+            "md5": "27954e9b266413ec30675ab2df474c19",
+            "crc32": "eb9f8851",
+            "sha1": "29b480f7e7ccefa050e358f5323d43adecc623ac"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_encrypted.pdf",
+            "source": "derivative",
+            "format": "ACS Encrypted PDF",
+            "original": "siraurelsteinarc0000mirs.pdf",
+            "mtime": "1552503229",
+            "size": "30167767",
+            "md5": "4ffc33ba38c4de5156c41a90b94dba57",
+            "crc32": "d36469a7",
+            "sha1": "3c980326fa24b97dbdf06d324de843ef0a679d65"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_events.json",
+            "source": "original",
+            "mtime": "1552483262",
+            "size": "55",
+            "md5": "bdbb8b78a5993f0823c249203a42242d",
+            "crc32": "11a4642f",
+            "sha1": "51be8d09ff6f6c226d0af66b85877d63ccd4434b",
+            "format": "JSON",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_files.xml",
+            "source": "original",
+            "format": "Metadata",
+            "md5": "043ccc1c82e68a723b2ddfec0748a7bd"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_jp2.zip",
+            "source": "derivative",
+            "format": "Single Page Processed JP2 ZIP",
+            "original": "siraurelsteinarc0000mirs_orig_jp2.tar",
+            "mtime": "1552492133",
+            "size": "322067551",
+            "md5": "907695f0e67ec5906836bda688de6f60",
+            "crc32": "6f488d3e",
+            "sha1": "8fee4dd1543e0bbf644bbce3867be37f44954733",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_loans.json",
+            "source": "original",
+            "mtime": "1579133842",
+            "size": "120",
+            "format": "JSON",
+            "private": "true",
+            "md5": "8015c39fe76109470463d2e16fa9739b",
+            "crc32": "8d362f49",
+            "sha1": "a8d5526b4f9cf0932c29169ac182fc8b8e10a70a"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_marc.xml",
+            "source": "original",
+            "mtime": "1552483501",
+            "size": "2762",
+            "format": "MARC",
+            "md5": "4c2a69e19e0522269f03113f44cb76da",
+            "crc32": "e3dc48f4",
+            "sha1": "7751b9722be200ae4f1f4787b66777b40203aca5"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_meta.mrc",
+            "source": "original",
+            "mtime": "1552444520",
+            "size": "831",
+            "md5": "7ee526921999d87eeb6335c5d8c6bbaa",
+            "crc32": "bfd30d29",
+            "sha1": "cf1521aeec88ec9a6675a6f5bbfc742100e39339",
+            "format": "MARC Binary"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_meta.sqlite",
+            "source": "original",
+            "mtime": "1552483421",
+            "size": "18432",
+            "format": "Metadata",
+            "md5": "96be56881c1ad67c26684405b81a0103",
+            "crc32": "7bd82ff0",
+            "sha1": "d4e502b5114ee187a47d8bc5c75ff777f9aba32d"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_meta.xml",
+            "source": "original",
+            "mtime": "1579133842",
+            "size": "3027",
+            "format": "Metadata",
+            "md5": "fd9a7ea8110968c8a61c4697a9ae497e",
+            "crc32": "988ef443",
+            "sha1": "f44b7d998d7eff715cb99897743bc203be689f02"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_orig_jp2.tar",
+            "source": "original",
+            "mtime": "1552483420",
+            "size": "1266544640",
+            "format": "Single Page Original JP2 Tar",
+            "private": "true",
+            "md5": "be4aec0ce3e2099e9992b82848d0b89b",
+            "crc32": "6d2ebf8b",
+            "sha1": "adca2f856108af3e544ae85b88af88326f1c3de7"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_scandata.xml",
+            "source": "original",
+            "mtime": "1552483421",
+            "size": "1009695",
+            "format": "Scandata",
+            "md5": "f609f105fd67f832d4bc867b69a84ddf",
+            "crc32": "8b8330c4",
+            "sha1": "d725975b05d507fda3136f3ef261108106487f6f"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_slip.png",
+            "source": "original",
+            "mtime": "1552435462",
+            "size": "38342",
+            "md5": "e529ec84b009771c6cf7d6deb0c77127",
+            "crc32": "98459343",
+            "sha1": "02fc840a3d896cae9b7381bed60657edceae27dc",
+            "format": "PNG",
+            "private": "true"
+        },
+        {
+            "name": "siraurelsteinarc0000mirs_slip_thumb.jpg",
+            "source": "derivative",
+            "format": "JPEG Thumb",
+            "original": "siraurelsteinarc0000mirs_slip.png",
+            "mtime": "1552483504",
+            "size": "5828",
+            "md5": "a9747193f6f18c7d0b2b0b1e2d43a33f",
+            "crc32": "7aee2d8d",
+            "sha1": "e5beb3328e8a93f2c618d0c48f7e8527e67d093e",
+            "private": "true"
+        }
+    ],
+    "files_count": 22,
+    "item_last_updated": 1579133842,
+    "item_size": 1691839469,
+    "metadata": {
+        "identifier": "siraurelsteinarc0000mirs",
+        "boxid": "IA1131110",
+        "camera": "Sony Alpha-A6300 (Control)",
+        "collection": [
+            "inlibrary",
+            "printdisabled",
+            "trent_university",
+            "internetarchivebooks"
+        ],
+        "collection_set": "trent",
+        "contributor": "Internet Archive",
+        "creator": "Mirsky, Jeannette, 1903-1987",
+        "date": "1977",
+        "description": [
+            "xiii, 585 p., [8] leaves of plates : 24 cm",
+            "Includes bibliographical references and index"
+        ],
+        "isbn": "0226531767",
+        "language": "eng",
+        "lccn": "76017703 //r85",
+        "mediatype": "texts",
+        "notes": "cut off text on page 106 due to tight binding..<br /><br />",
+        "old_pallet": "IA13642",
+        "openlibrary_edition": "OL4887054M",
+        "openlibrary_work": "OL6900199W",
+        "operator": "associate-liezl-ponce@archive.org",
+        "ppi": "300",
+        "publisher": "Chicago : University of Chicago Press",
+        "repub_state": "19",
+        "scanner": "station17.cebu.archive.org",
+        "scanningcenter": "cebu",
+        "scribe3_search_catalog": "trent",
+        "scribe3_search_id": "0116300935040",
+        "sponsor": "Kahle/Austin Foundation",
+        "subject": [
+            "Stein, Aurel, Sir, 1862-1943",
+            "Archaeologists -- Asia, Central -- Biography"
+        ],
+        "title": "Sir Aurel Stein, archaeological explorer",
+        "tts_version": "1.64-initial-45-g1252243",
+        "uploader": "station17.cebu@archive.org",
+        "addeddate": "2019-03-13 00:04:23",
+        "publicdate": "2019-03-13 00:04:38",
+        "imagecount": "626",
+        "scandate": "20190313040906",
+        "republisher_operator": "associate-selvia-rolida@archive.org",
+        "republisher_date": "20190313212054",
+        "republisher_time": "788",
+        "foldoutcount": "0",
+        "identifier-access": "http://archive.org/details/siraurelsteinarc0000mirs",
+        "identifier-ark": "ark:/13960/t8wb2qd5r",
+        "bookplateleaf": "0010",
+        "ocr": "ABBYY FineReader 11.0 (Extended OCR)",
+        "external-identifier": [
+            "urn:acs6:siraurelsteinarc0000mirs:epub:38dcb04d-940b-4823-8dfc-8d3844e9cfc8",
+            "urn:acs6:siraurelsteinarc0000mirs:pdf:1b9684ea-9089-4527-ae7f-9cabf6ea550b"
+        ],
+        "scanfee": "0;1.00;200",
+        "invoice": "1652",
+        "loans__status__status": "AVAILABLE",
+        "loans__status__num_loans": "1",
+        "loans__status__num_waitlist": "0",
+        "loans__status__num_history": "8",
+        "loans__status__last_loan_date": "2020-01-13T17:20:09Z",
+        "sponsordate": "20190331",
+        "access-restricted-item": "true"
+    },
+    "server": "ia803003.us.archive.org",
+    "simplelists": {
+        "holdings": {
+            "drakeuniversity-ol": {
+                "notes": {
+                    "isbn": [
+                        "9780226531762"
+                    ]
+                },
+                "sys_changed_by": {
+                    "source": "mdapi",
+                    "username": "charleshorn@archive.org"
+                },
+                "sys_last_changed": "2019-12-16 01:22:25.657761"
+            },
+            "mitlibraries-ol": {
+                "notes": {
+                    "isbn": [
+                        "9780226531762"
+                    ]
+                },
+                "sys_changed_by": {
+                    "source": "mdapi",
+                    "username": "charleshorn@archive.org"
+                },
+                "sys_last_changed": "2019-12-08 22:47:44.01282"
+            },
+            "universityofoklahoma-ol": {
+                "notes": {
+                    "isbn": [
+                        "9780226531762"
+                    ]
+                },
+                "sys_changed_by": {
+                    "source": "mdapi",
+                    "username": "charles.horn@gmail.com"
+                },
+                "sys_last_changed": "2019-12-04 05:51:55.034055"
+            }
+        }
+    },
+    "uniq": 1673201651,
+    "workable_servers": [
+        "ia803003.us.archive.org",
+        "ia903003.us.archive.org"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "emma_repository": "bookshare",
+  "emma_repositoryRecordId": "32480",
+  "emma_retrievalLink": "https://www.bookshare.org/browse/book/32480",
+  "emma_lastRemediationDate": "2018-05-17",
+  "emma_lastRemediationNote": "New EPUB3 file",
+  "emma_formatVersion": "3",
+  "dc_title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+  "dc_creator": [
+    "J. K. Rowling"
+  ],
+  "dc_identifier": [
+    "isbn:9780590353427"
+  ],
+  "dc_publisher": "Scholastic",
+  "dc_language": "en",
+  "dc_rights": "copyright",
+  "dc_description": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
+  "dc_subject": [
+    "bisac:JUV000000 JUVENILE FICTION / General",
+    "bisac:JUV037000 JUVENILE FICTION / Fantasy & Magic",
+    "bisac:JUV030050 JUVENILE FICTION / People & Places / Europe",
+    "bisac:JUV035000 JUVENILE FICTION / School & Education",
+    "bookshare:Education",
+    "bookshare:Science Fiction and Fantasy",
+    "bookshare:Literature and Fiction",
+    "bookshare:Children's Books",
+    "bookshare:Teens"
+  ],
+  "dc_format": "daisy",
+  "dc_type": "text",
+  "dcterms_dateAccepted": "2015-11-13",
+  "dcterms_dateCopyright": "1997",
+  "s_accessibilityFeature": [
+    "alternativeText"
+  ],
+  "s_accessibilityControl": [
+    "fullKeyboardControl"
+  ],
+  "s_accessibilityHazard": [
+    "noFlashingHazard",
+    "noMotionSimulationHazard",
+    "noSoundHazard"
+  ]
+}

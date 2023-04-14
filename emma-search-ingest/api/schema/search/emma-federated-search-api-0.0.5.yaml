@@ -1,0 +1,313 @@
+openapi: 3.0.0
+info:
+  title: EMMA Federated Search API
+  description: Search API for EMMA Federated Search Index
+  contact:
+    email: bookshare-developers@benetech.org
+  license:
+    name: TBD
+  version: 0.0.5
+tags:
+  - name: search
+    description: Search
+servers:
+  - url: https://api.staging.bookshareunifiedsearch.org
+    description: Staging for partner testing, stable
+  - url: https://api.qa.bookshareunifiedsearch.org
+    description: QA Server, unstable
+paths:
+  /search:
+    get:
+      tags:
+        - search
+      summary: Search for metadata records
+      description: Search for metadata records against common fields.
+      operationId: searchMetadata
+      parameters:
+        - name: q
+          in: query
+          description: The string passed in will be searched against title, creator, and
+            publication identifiers such as ISBN and OCLC number.  If the q parameter is specified, the title, creator,
+            publisher, and identifier parameters are ignored.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: creator
+          in: query
+          description: The string passed in will be searched against creators.  These will most commonly be authors,
+            but may also include editors and other contributors.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: title
+          in: query
+          description: The string passed in will be searched against result titles.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: identifier
+          in: query
+          description: The string passed in will be searched against
+            publication identifiers such as ISBN and OCLC number.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: publisher
+          in: query
+          description: Search results will be limited to works with the given publisher.
+            This currently does not work when combined with the q search parameter.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: format
+          in: query
+          description: Search results will be limited to works with the given formats.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: array
+            items:
+              $ref: "#/components/schemas/format"
+        - name: formatFeature
+          in: query
+          description: Search results will be limited to works with the given format
+            features.
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/formatFeature"
+        - name: formatVersion
+          in: query
+          description: Search results will be limited to works with the given format
+            version.
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/EmmaFormatVersion"
+        - name: accessibilityFeature
+          in: query
+          description: Search results will be limited to works with the given
+            [accessibility
+            features](https://www.w3.org/wiki/WebSchemas/Accessibility#Accessibility_terms_.28Version_2.0.29).
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/accessibilityFeature"
+        - name: repository
+          in: query
+          description: Search results will be limited to works in the given repository.
+          required: false
+          schema:
+            $ref: "#/components/schemas/repository"
+        - name: collection
+          in: query
+          description: Search results will be limited to works in the given repository
+            collection.
+          required: false
+          schema:
+            $ref: "#/components/schemas/collection"
+        - name: lastRemediationDate
+          in: query
+          description: Search results will be limited to works with a remediation date
+            after the given date. Format is
+            [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            date format (YYYY-MM-DD)
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/lastRemediationDate"
+        - name: publicationDate
+          in: query
+          description: Search results will be limited to works with a publication date
+            after the given date. Format is either a 4-digit year or the
+            [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            date format (YYYY-MM-DD)
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/publicationDate"
+        - name: sortDate
+          in: query
+          description: Search results will be limited to works with a sort date
+            after the given date. Format is
+            [ISO-8601](https://www.iso.org/iso-8601-date-and-time-format.html)
+            date format (YYYY-MM-DD)
+            Sort date defaults to the same value as last remediation date.  If not available,
+            it defaults to date accepted.  If date accepted is not available, it defaults to the date
+            that the record was last updated in this index.  This field is never expected to be null.
+          required: false
+          style: form
+          explode: true
+          schema:
+            $ref: "#/components/schemas/sortDate"
+        - name: sort
+          in: query
+          description: Results will be sorted in the given order, with title order
+            ascending and date order descending.  Last remediation date is likely to be null;
+            sort date is guaranteed not to be null.  When not specified, sort defaults to relevance.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: string
+            enum:
+              - title
+              - lastRemediationDate
+              - sortDate
+              - publicationDate
+        - name: searchAfterId
+          in: query
+          description: When paging through sorted results, return the next page of results that come after the record with this EMMA Record Identifier, i.e.
+            the last emma_recordId in a previous page of results.  Must be paired with a searchAfterValue parameter.  When using the default
+            relevance sort, use the "from" parameter instead for paging.
+          required: false
+          style: form
+          schema:
+            $ref: "#/components/schemas/EmmaRecordIdentifier"
+          examples:
+            empty:
+              value: ""
+              summary: No value
+            id:
+              value: 12345
+              summary: Sample EMMA Record Identifier
+        - name: searchAfterValue
+          in: query
+          description: When paging through sorted results, return the next page of results that come after the record with this URL encoded title or
+            last remediation date, i.e. the last dc_title, dc_sortDate, emma_publicationDate, or emma_lastRemediationDate in a previous page of results.
+            This value must match the type of the search sort.  Must be paired with a searchAfterId parameter.
+            If a title value is truncated, the search engine will make its best effort to find the record for
+            determining the page break.
+            When using the default relevance sort, use the "from" parameter instead for paging.
+          required: false
+          style: form
+          schema:
+            oneOf:
+              - $ref: "#/components/schemas/title"
+              - $ref: "#/components/schemas/lastRemediationDate"
+              - $ref: "#/components/schemas/sortDate"
+              - $ref: "#/components/schemas/publicationDate"
+          examples:
+            empty:
+              value: ""
+              summary: No value
+            title:
+              value: To Kill a Mockingbird
+              summary: Sample title value
+            lastRemediationDate:
+              value: "2020-10-10"
+              summary: Sample last remediation date value
+        - name: size
+          in: query
+          description: Number of results to return in the next page of results.   Defaults to 100.
+          required: false
+          style: form
+          schema:
+            type: integer
+        - name: from
+          in: query
+          description: When using the default relevance result sort, use "from" to return the next page of results
+            starting from the given result number.  If results are sorted, use searchAfterId and searchAfterValue instead.
+            A limit of 1000 total results can be retrieved for the current query using the "from" parameter.
+          required: false
+          style: form
+          schema:
+            type: integer
+        - name: group
+          in: query
+          description: |
+            [EXPERIMENTAL] Search results will be grouped by the given field.  Result page size will
+            automatically be limited to 10 maximum.  Each result will have a number of grouped records provided as
+            children, so the number of records returned will be more than 10.  Cannot be combined with sorting by
+            title or date.
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: array
+            items:
+              $ref: "#/components/schemas/Group"
+      responses:
+        "200":
+          description: Metadata records matching the search criteria
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/MetadataRecord"
+        "400":
+          description: Bad query parameter
+          content:
+            application/json:
+              schema:
+                description: List of errors in the query
+                type: array
+                items:
+                  type: string
+components:
+  schemas:
+    MetadataRecord:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/MetadataRecord
+    MetadataCommonRecord:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/MetadataCommonRecord
+    Group:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/Group
+    format:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/DublinCoreFields/properties/dc_format
+    formatFeature:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields/properties/emma_formatFeature
+    accessibilityFeature:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/SchemaOrgFields/properties/s_accessibilityFeature
+    repository:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaRepository
+    collection:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields/properties/emma_collection
+    title:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/DublinCoreFields/properties/dc_title
+    lastRemediationDate:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields/properties/emma_lastRemediationDate
+    sortDate:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields/properties/emma_sortDate
+    publicationDate:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields/properties/emma_publicationDate
+    EmmaRecordIdentifier:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaRecordIdentifier
+    EmmaRepository:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaRepository
+    EmmaRepositoryRecordId:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaRepositoryRecordId
+    EmmaFormatVersion:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaFormatVersion
+    DublinCoreFormat:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/DublinCoreFormat
+    PublicationIdentifier:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/PublicationIdentifier
+    PeriodicalIdentifier:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/PeriodicalIdentifier
+    RemediationFields:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/RemediationFields
+    PeriodicalFields:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/PeriodicalFields
+    SchemaOrgFields:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/SchemaOrgFields
+    EmmaCommonFields:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/EmmaCommonFields
+    DublinCoreFields:
+      $ref: ../shared/model/common-domain-0.0.5.schema.yaml#/components/schemas/DublinCoreFields

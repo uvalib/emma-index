@@ -1,0 +1,1602 @@
+[
+        {
+            "allows": null,
+            "bookshareId": 2951874,
+            "title": "Mum's the Word",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "T. P.",
+                    "lastName": "Tovenaar",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781528967228",
+            "synopsis": "When Kalyani Fernando boarded the SS Canberra bound for England, she promised her parents she would return once she had passed her nursing exams. Starting a new life in a new country was never her intention. She never dreamed that she would end up marrying the strange bespectacled man she had slapped for trying to kiss her, or that she would be stuck in England, consulting astrologers about her wayward daughter. She never imagined herself extolling the virtues of sperm donation or dancing on stage with a rock band at the age of 70.\r\n\r\n\tMum's the Word charts the delightfully funny relationship between a Sri Lankan mother and her British-born daughter, both trying to live within a complex mix of cultures, customs and environment. At a time when nationality has such dark connotations, these stories humorously remind us that we are much more than our place of birth or what our passport says.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": null,
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "T. P. Tovenaar",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Literature and Fiction",
+                    "description": "Literature and Fiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "FICTION / General",
+                    "description": "FICTION / General",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": null,
+            "publisher": "Austin Macauley Publishers Ltd.",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": [
+                "9781528932813"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 1,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951874"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951874/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/d0f/medium/2951874.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/d0f/small/2951874.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2951869,
+            "title": "Full Circle",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "Linden",
+                    "lastName": "Carroll",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781528955898",
+            "synopsis": null,
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": null,
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Linden Carroll",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": null,
+            "publisher": "Austin Macauley Publishers Ltd.",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": null,
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 1,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951869"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951869/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/f30/medium/2951869.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/f30/small/2951869.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2951857,
+            "title": "Introduction to Neurological Rehabilitation",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "Abdel",
+                    "lastName": "Bakheit",
+                    "middle": "Magid",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781528964937",
+            "synopsis": null,
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": null,
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Abdel Magid Bakheit",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Medicine",
+                    "description": "Medicine",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "MEDICAL / Internal Medicine",
+                    "description": "MEDICAL / Internal Medicine",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": null,
+            "publisher": "Austin Macauley Publishers Ltd.",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": null,
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 12,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951857"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951857/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/261/medium/2951857.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/261/small/2951857.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2951873,
+            "title": "Got ’Em",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "A. D.",
+                    "lastName": "Spicer",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781528958097",
+            "synopsis": null,
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": null,
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "A. D. Spicer",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": null,
+            "publisher": "Austin Macauley Publishers Ltd.",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": null,
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 1,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951873"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951873/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/e08/medium/2951873.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/e08/small/2951873.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2424083,
+            "title": "Rage Becomes Her: The Power of Women's Anger",
+            "subtitle": "The Power of Women's Anger",
+            "authors": [
+                {
+                    "firstName": "Soraya",
+                    "lastName": "Chemaly",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781501189579",
+            "synopsis": "“How many women cry when angry because we've held it in for so long? How many discover that anger turned inward is depression? Soraya Chemaly’s Rage Becomes Her will be good for women, and for the future of this country. After all, women have a lot to be angry about.” —Gloria Steinem A transformative book urging twenty-first century-women to embrace their anger and harness it as a tool for lasting personal and societal change. Women are angry, and it isn’t hard to figure out why. We are underpaid and overworked. Too sensitive, or not sensitive enough. Too dowdy or too made-up. Too big or too thin. Sluts or prudes. We are harassed, told we are asking for it, and asked if it would kill us to smile. Yes, yes it would. Contrary to the rhetoric of popular “self-help” and an entire lifetime of being told otherwise, our rage is one of the most important resources we have, our sharpest tool against both personal and political oppression. We’ve been told for so long to bottle up our anger, letting it corrode our bodies and minds in ways we don’t even realize. Yet our anger is a vital instrument, our radar for injustice and a catalyst for change. On the flip side, the societal and cultural belittlement of our anger is a cunning way of limiting and controlling our power. We are so often told to resist our rage or punished for justifiably expressing it, yet how many remarkable achievements in this world would never have gotten off the ground without the kernel of anger that fueled them? Rage Becomes Her makes the case that anger is not what gets in our way, it is our way, sparking a new understanding of one of our core emotions that will give women a liberating sense of why their anger matters and connect them to an entire universe of women no longer interested in making nice at all costs. Following in the footsteps of classic feminist manifestos like The Feminine Mystique and Our Bodies, Ourselves, Rage Becomes Her is an eye-opening book for the twenty-first century woman: an engaging, accessible credo offering us the tools to re-understand our anger and harness its power to create lasting positive change.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2018",
+            "publishDate": "2019-02-07",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DAISY_SEGMENTED",
+                    "name": "DAISY Segmented"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Soraya Chemaly",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Psychology",
+                    "description": "Psychology",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Social Studies",
+                    "description": "Social Studies",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "PSYCHOLOGY / Emotions",
+                    "description": "PSYCHOLOGY / Emotions",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "SOCIAL SCIENCE / Popular Culture",
+                    "description": "SOCIAL SCIENCE / Popular Culture",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "SOCIAL SCIENCE / Women's Studies",
+                    "description": "SOCIAL SCIENCE / Women's Studies",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [
+                "AF",
+                "AX",
+                "AL",
+                "DZ",
+                "AD",
+                "AO",
+                "AQ",
+                "AR",
+                "AM",
+                "AW",
+                "AT",
+                "AZ",
+                "BH",
+                "BY",
+                "BE",
+                "BJ",
+                "BO",
+                "BQ",
+                "BA",
+                "BV",
+                "BR",
+                "BG",
+                "BF",
+                "BI",
+                "KH",
+                "CA",
+                "CV",
+                "CF",
+                "TD",
+                "CL",
+                "CN",
+                "CO",
+                "KM",
+                "CD",
+                "CK",
+                "CR",
+                "CI",
+                "HR",
+                "CU",
+                "CW",
+                "CZ",
+                "DK",
+                "DJ",
+                "DO",
+                "EC",
+                "EG",
+                "SV",
+                "GQ",
+                "ER",
+                "EE",
+                "ET",
+                "FO",
+                "FI",
+                "FR",
+                "GF",
+                "PF",
+                "TF",
+                "GA",
+                "GE",
+                "DE",
+                "GR",
+                "GL",
+                "GP",
+                "GT",
+                "GN",
+                "GW",
+                "HT",
+                "VA",
+                "HN",
+                "HK",
+                "HU",
+                "IS",
+                "IN",
+                "ID",
+                "IR",
+                "IL",
+                "IT",
+                "JP",
+                "KZ",
+                "KP",
+                "KR",
+                "KG",
+                "LA",
+                "LV",
+                "LB",
+                "LR",
+                "LY",
+                "LI",
+                "LT",
+                "LU",
+                "MO",
+                "MK",
+                "MG",
+                "ML",
+                "MH",
+                "MQ",
+                "MR",
+                "YT",
+                "MX",
+                "FM",
+                "MD",
+                "MC",
+                "MN",
+                "ME",
+                "MA",
+                "NL",
+                "NC",
+                "NI",
+                "NE",
+                "NO",
+                "OM",
+                "PW",
+                "PS",
+                "PA",
+                "PY",
+                "PE",
+                "PH",
+                "PL",
+                "PT",
+                "QA",
+                "RO",
+                "RU",
+                "RW",
+                "BL",
+                "MF",
+                "SM",
+                "ST",
+                "SA",
+                "SN",
+                "RS",
+                "SG",
+                "SX",
+                "SK",
+                "SI",
+                "SS",
+                "ES",
+                "SR",
+                "SJ",
+                "SE",
+                "CH",
+                "SY",
+                "TW",
+                "TJ",
+                "TH",
+                "TL",
+                "TG",
+                "TN",
+                "TR",
+                "TM",
+                "UA",
+                "AE",
+                "US",
+                "UM",
+                "UY",
+                "UZ",
+                "VE",
+                "VN",
+                "WF",
+                "EH"
+            ],
+            "numPages": null,
+            "copyright": "Soraya Chemaly",
+            "publisher": "Atria Books",
+            "withdrawalDate": "2019-12-10",
+            "replacementId": 2959756,
+            "relatedIsbns": [
+                "9781501189562",
+                "9781501189555"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 8,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Simon and Schuster",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2424083"
+                },
+                {
+                    "rel": "replacement",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2959756"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2424083/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e85/medium/2424083.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e85/small/2424083.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2951887,
+            "title": "Running Dogs",
+            "subtitle": null,
+            "authors": [
+                {
+                    "firstName": "William",
+                    "lastName": "Hunt",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781528957564",
+            "synopsis": null,
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": null,
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": false,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "William Hunt",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [],
+            "numPages": null,
+            "copyright": null,
+            "publisher": "Austin Macauley Publishers Ltd.",
+            "withdrawalDate": null,
+            "replacementId": null,
+            "relatedIsbns": null,
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 1,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "INscribe",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951887"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2951887/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/fc5/medium/2951887.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://daqesx1c8d4aw.cloudfront.net/title_instance/fc5/small/2951887.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2800510,
+            "title": "The Rabbit Effect: Live Longer, Happier, and Healthier with the Groundbreaking Science of Kindness",
+            "subtitle": "Live Longer, Happier, and Healthier with the Groundbreaking Science of Kindness",
+            "authors": [
+                {
+                    "firstName": "Kelli",
+                    "lastName": "Harding",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781501184284",
+            "synopsis": "Discover an eye-opening and provocative new way to look at our health based on the latest groundbreaking discoveries in the science of compassion, kindness, and human connection. For all of its rigor and science, medicine is full of stories—mysteries—that doctors and research cannot explain. Patients who are biologically healthy, but feel ill. Patients who are biologically ill, but feel healthy. What if these health mysteries could teach us something about what really makes us sick—and how to be healthy?  When Columbia University doctor Kelli Harding began her clinical practice, she never intended to explore the invisible factors behind our health. But then there were the rabbits. In 1978, a seemingly straightforward experiment designed to establish the relationship between high blood cholesterol and heart health in rabbits discovered that kindness—in the form of a particularly nurturing post-doc who pet and spoke to the lab rabbits as she fed them—made the difference between a heart attack and a healthy heart.  As Dr. Kelli Harding reveals in this eye-opening book, the rabbits were just the beginning of a much larger story. Groundbreaking new research shows that love, friendship, community, life’s purpose, and our environment can have a greater impact on our health than anything that happens in the doctor’s office. For instance, chronic loneliness can be as unhealthy as smoking a pack of cigarettes a day; napping regularly can decrease one’s risk of heart disease; and people with purpose are less likely to get sick. Through provocative storytelling and compelling research, Harding presents a new model for you to take charge of your health.  At once paradigm-shifting and empowering, The Rabbit Effect shares a radical new way to think about health, wellness, and how we live.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": "2019-08-27",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Kelli Harding",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Health, Mind and Body",
+                    "description": "Health, Mind and Body",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Medicine",
+                    "description": "Medicine",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Social Studies",
+                    "description": "Social Studies",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "HEALTH & FITNESS / Healthy Living",
+                    "description": "HEALTH & FITNESS / Healthy Living",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "MEDICAL / Holistic Medicine",
+                    "description": "MEDICAL / Holistic Medicine",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "SOCIAL SCIENCE / Disease & Health Issues",
+                    "description": "SOCIAL SCIENCE / Disease & Health Issues",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [
+                "AF",
+                "AX",
+                "AL",
+                "DZ",
+                "AD",
+                "AO",
+                "AQ",
+                "AR",
+                "AM",
+                "AW",
+                "AT",
+                "AZ",
+                "BH",
+                "BY",
+                "BE",
+                "BJ",
+                "BO",
+                "BQ",
+                "BA",
+                "BV",
+                "BR",
+                "BG",
+                "BF",
+                "BI",
+                "KH",
+                "CA",
+                "CV",
+                "CF",
+                "TD",
+                "CL",
+                "CN",
+                "CO",
+                "KM",
+                "CD",
+                "CR",
+                "CI",
+                "HR",
+                "CU",
+                "CW",
+                "CZ",
+                "DK",
+                "DJ",
+                "DO",
+                "EC",
+                "EG",
+                "SV",
+                "GQ",
+                "ER",
+                "EE",
+                "ET",
+                "FO",
+                "FI",
+                "FR",
+                "GF",
+                "PF",
+                "TF",
+                "GA",
+                "GE",
+                "DE",
+                "GR",
+                "GL",
+                "GP",
+                "GT",
+                "GN",
+                "GW",
+                "HT",
+                "VA",
+                "HN",
+                "HK",
+                "HU",
+                "IS",
+                "ID",
+                "IR",
+                "IL",
+                "IT",
+                "JP",
+                "KZ",
+                "KP",
+                "KR",
+                "KG",
+                "LA",
+                "LV",
+                "LB",
+                "LR",
+                "LY",
+                "LI",
+                "LT",
+                "LU",
+                "MO",
+                "MK",
+                "MG",
+                "ML",
+                "MH",
+                "MQ",
+                "MR",
+                "YT",
+                "MX",
+                "FM",
+                "MD",
+                "MC",
+                "MN",
+                "ME",
+                "MA",
+                "NP",
+                "NL",
+                "NC",
+                "NI",
+                "NE",
+                "NO",
+                "OM",
+                "PW",
+                "PS",
+                "PA",
+                "PY",
+                "PE",
+                "PH",
+                "PL",
+                "PT",
+                "QA",
+                "RO",
+                "RU",
+                "RW",
+                "BL",
+                "MF",
+                "SM",
+                "SA",
+                "SN",
+                "RS",
+                "SG",
+                "SX",
+                "SK",
+                "SI",
+                "SS",
+                "ES",
+                "SR",
+                "SJ",
+                "SE",
+                "CH",
+                "SY",
+                "TW",
+                "TJ",
+                "TH",
+                "TL",
+                "TG",
+                "TN",
+                "TR",
+                "TM",
+                "UA",
+                "AE",
+                "US",
+                "UM",
+                "UY",
+                "UZ",
+                "VE",
+                "VN",
+                "WF",
+                "EH"
+            ],
+            "numPages": null,
+            "copyright": "Kelli Harding",
+            "publisher": "Atria Books",
+            "withdrawalDate": "2019-12-10",
+            "replacementId": 2959755,
+            "relatedIsbns": [
+                "9781501184260"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 14,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Simon and Schuster",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2800510"
+                },
+                {
+                    "rel": "replacement",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2959755"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2800510/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e9c/medium/2800510.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e9c/small/2800510.jpg"
+                }
+            ]
+        },
+        {
+            "allows": null,
+            "bookshareId": 2352551,
+            "title": "Bad with Money: The Imperfect Art of Getting Your Financial Sh*t Together",
+            "subtitle": "The Imperfect Art of Getting Your Financial Sh*t Together",
+            "authors": [
+                {
+                    "firstName": "Gaby",
+                    "lastName": "Dunn",
+                    "middle": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "links": []
+                }
+            ],
+            "isbn13": "9781501176340",
+            "synopsis": "“Humorous and forthright...[Gaby] Dunn makes facing money issues seem not only palatable but possibly even fun....Dunn’s book delivers.” —Publishers Weekly The beloved writer-comedian expands on her popular podcast with an engaging and empowering financial literacy book for Millennials and Gen Z. In the first episode of her “Bad With Money” podcast, Gaby Dunn asked patrons at a coffee shop two questions: First, what’s your favorite sex position? Everyone was game to answer, even the barista. Then, she asked how much money was in their bank accounts. People were aghast. “That’s a very personal question,” they insisted. And therein lies the problem. Dunn argues that our inability to speak honestly about money is our #1 barrier to understanding it, leading us to feel alone, ashamed and anxious, which in turns makes us feel even more overwhelmed by it. In Bad With Money, she reveals the legitimate, systemic reasons behind our feeling of helplessness when it comes to personal finance, demystifying the many signposts on the road to getting our financial sh*t together, like how to choose an insurance plan or buy a car, sign up for a credit card or take out student loans. She speaks directly to her audience, offering advice on how to make that #freelancelyfe work for you, navigate money while you date, and budget without becoming a Nobel-winning economist overnight. Even a topic as notoriously dry as money becomes hilarious and engaging in the hands of Dunn, who weaves her own stories with the perspectives of various comedians, artists, students, and more, arguing that—even without selling our bodies to science or suffering the indignity of snobby thrift shop buyers—we can all start taking control of our financial futures.",
+            "seriesTitle": null,
+            "seriesNumber": null,
+            "copyrightDate": "2019",
+            "publishDate": "2019-01-01",
+            "formats": [
+                {
+                    "formatId": "DAISY",
+                    "name": "DAISY with Images"
+                },
+                {
+                    "formatId": "EPUB3",
+                    "name": "EPUB 3"
+                },
+                {
+                    "formatId": "DOCX",
+                    "name": "Word"
+                },
+                {
+                    "formatId": "BRF",
+                    "name": "BRF"
+                },
+                {
+                    "formatId": "DAISY_AUDIO",
+                    "name": "DAISY Audio"
+                }
+            ],
+            "titleContentType": "",
+            "available": true,
+            "contributors": [
+                {
+                    "name": {
+                        "displayName": "Gaby Dunn",
+                        "indexName": null,
+                        "links": []
+                    },
+                    "type": "author"
+                }
+            ],
+            "composers": [],
+            "lyricists": [],
+            "arrangers": [],
+            "translators": [],
+            "editors": null,
+            "instruments": null,
+            "vocalParts": null,
+            "languages": [
+                "eng"
+            ],
+            "contentWarnings": [],
+            "categories": [
+                {
+                    "name": "Business and Finance",
+                    "description": "Business and Finance",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Humor",
+                    "description": "Humor",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Nonfiction",
+                    "description": "Nonfiction",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "Self-Help",
+                    "description": "Self-Help",
+                    "categoryType": "Bookshare",
+                    "links": []
+                },
+                {
+                    "name": "BUSINESS & ECONOMICS / Personal Finance / General",
+                    "description": "BUSINESS & ECONOMICS / Personal Finance / General",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "HUMOR / Topic / Business & Professional",
+                    "description": "HUMOR / Topic / Business & Professional",
+                    "categoryType": "BISAC",
+                    "links": []
+                },
+                {
+                    "name": "SELF-HELP / Motivational & Inspirational",
+                    "description": "SELF-HELP / Motivational & Inspirational",
+                    "categoryType": "BISAC",
+                    "links": []
+                }
+            ],
+            "readingAgeMinimum": null,
+            "readingAgeMaximum": null,
+            "site": "bookshare",
+            "adultContent": false,
+            "usageRestriction": {
+                "usageRestrictionId": 2,
+                "name": "Copyright"
+            },
+            "grades": [],
+            "countries": [
+                "AF",
+                "AL",
+                "DZ",
+                "AO",
+                "AQ",
+                "AR",
+                "AM",
+                "AW",
+                "AZ",
+                "BH",
+                "BY",
+                "BJ",
+                "BO",
+                "BQ",
+                "BA",
+                "BR",
+                "BF",
+                "BI",
+                "KH",
+                "CA",
+                "CV",
+                "CF",
+                "TD",
+                "CL",
+                "CN",
+                "CO",
+                "KM",
+                "CD",
+                "CR",
+                "CI",
+                "CU",
+                "CW",
+                "DJ",
+                "DO",
+                "EC",
+                "EG",
+                "SV",
+                "GQ",
+                "ER",
+                "ET",
+                "GA",
+                "GE",
+                "GL",
+                "GT",
+                "GN",
+                "GW",
+                "HT",
+                "HN",
+                "HK",
+                "ID",
+                "IR",
+                "IL",
+                "JP",
+                "KZ",
+                "KP",
+                "KR",
+                "KG",
+                "LA",
+                "LB",
+                "LR",
+                "LY",
+                "MO",
+                "MK",
+                "MG",
+                "ML",
+                "MH",
+                "MR",
+                "MX",
+                "FM",
+                "MD",
+                "MN",
+                "ME",
+                "MA",
+                "NP",
+                "NI",
+                "NE",
+                "OM",
+                "PW",
+                "PS",
+                "PA",
+                "PY",
+                "PE",
+                "PH",
+                "QA",
+                "RU",
+                "RW",
+                "BL",
+                "MF",
+                "SA",
+                "SN",
+                "RS",
+                "SX",
+                "SS",
+                "SR",
+                "SY",
+                "TW",
+                "TJ",
+                "TH",
+                "TL",
+                "TG",
+                "TN",
+                "TR",
+                "TM",
+                "UA",
+                "AE",
+                "US",
+                "UM",
+                "UY",
+                "UZ",
+                "VE",
+                "VN",
+                "EH"
+            ],
+            "numPages": null,
+            "copyright": "Atria Books",
+            "publisher": "Atria Books",
+            "withdrawalDate": "2019-12-10",
+            "replacementId": 2959754,
+            "relatedIsbns": [
+                "9781501176333"
+            ],
+            "seriesSubtitle": null,
+            "allowRecommend": true,
+            "externalCategoryCode": null,
+            "artifacts": null,
+            "edition": null,
+            "opus": null,
+            "movementNumber": null,
+            "movementTitle": null,
+            "key": null,
+            "musicScoreType": null,
+            "hasChordSymbols": false,
+            "marrakeshAvailable": false,
+            "notes": null,
+            "lastUpdated": "2019-12-10",
+            "numImages": 8,
+            "dtbookSize": null,
+            "submitter": "71375",
+            "proofreader": null,
+            "titleSource": "Simon and Schuster",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2352551"
+                },
+                {
+                    "rel": "replacement",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2959754"
+                },
+                {
+                    "rel": "download",
+                    "href": "https://api.qa.bookshare.org/v2/titles/2352551/{format}"
+                },
+                {
+                    "rel": "coverimage",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e78/medium/2352551.jpg"
+                },
+                {
+                    "rel": "thumbnail",
+                    "href": "https://d1lp72kdku3ux1.cloudfront.net/title_instance/e78/small/2352551.jpg"
+                }
+            ]
+        }
+    ]

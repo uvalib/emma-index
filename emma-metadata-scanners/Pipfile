@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+pytest = "*"
+requests-mock = "*"
+autopep8 = "*"
+moto = "*"
+
+[packages]
+requests = "*"
+requests-oauthlib = "*"
+boto3 = "*"
+pytz = "*"
+jsonpath-ng = "*"
+jsonschema = "*"
+internetarchive = "*"
+iso-639 = "*"
+pyisbn = "*"
+
+[requires]
+python_version = "3.8"

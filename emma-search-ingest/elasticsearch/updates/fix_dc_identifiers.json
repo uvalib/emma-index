@@ -1,0 +1,56 @@
+
+
+POST /emma-federated-index-alias-staging/_update_by_query?requests_per_second=1000&wait_for_completion=false&timeout=300s&conflicts=proceed
+{
+  "script": {
+    "lang": "painless",
+    "source": """
+      if (ctx._source.dc_identifier != null) {
+        def ident;
+
+        if (ctx._source.dc_identifier instanceof java.lang.String) {
+          ident = ctx._source.dc_identifier;
+        }
+        else { ident = ctx._source.dc_identifier[0]; }
+        if (ident != null && ident.contains("[")) {
+          ident = ident.replace("'","");
+          ident = ident.replace("[","");
+          ident = ident.replace("]","");
+          ident = ident.replace(" ","");
+
+          def identList = ident.splitOnToken(',');
+          ctx._source.dc_identifier = identList;
+        }
+      }
+      if (ctx._source.dc_relation != null) {
+        def rel;
+        if (ctx._source.dc_relation instanceof java.lang.String) {
+         rel = ctx._source.dc_relation;
+        }
+        else { rel = ctx._source.dc_relation[0]; }
+        if (rel != null && rel.contains("[")) {
+          rel = rel.replace("'","");
+          rel = rel.replace("[","");
+          rel = rel.replace("]","");
+          rel = rel.replace(" ","");
+          def relList = rel.splitOnToken(',');
+          ctx._source.dc_relation = relList;
+        }
+      }
+
+    """
+  },
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "range": {
+            "emma_indexLastUpdated": {
+              "gte": "2021-07-16"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

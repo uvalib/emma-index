@@ -1,0 +1,67 @@
+{
+    "$id": "http://benetech.org/emma-federated-index/0.0.6/identifier-record.schema.json#",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$comment": "Generated from YAML OpenAPI definition by emma-federated-search/api/ingestion/lambda/emma-federated-ingest/make.py",
+    "title": "Metadata to uniquely identify a record in the EMMA Federated Search Index",
+    "description": "Schema to identify a single metadata record in the EMMA Federated Search index, for deleting or retrieval, for example.",
+    "type": "object",
+    "oneOf": [
+        {
+            "properties": {
+                "emma_recordId": {
+                    "title": "EMMA metadata record identifier",
+                    "description": "The unique identifier for a metadata record within the EMMA Federated Search Index.  Not guaranteed to have any particular format.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "emma_recordId"
+            ]
+        },
+        {
+            "properties": {
+                "emma_repository": {
+                    "description": "Identifier for a repository",
+                    "type": "string",
+                    "enum": [
+                        "bookshare",
+                        "hathiTrust",
+                        "internetArchive",
+                        "emma",
+                        "ace"
+                    ]
+                },
+                "emma_repositoryRecordId": {
+                    "description": "The unique identifier for a work within a repository",
+                    "type": "string"
+                },
+                "emma_formatVersion": {
+                    "description": "Version of the format used by this instance of this work",
+                    "type": "string"
+                },
+                "dc_format": {
+                    "description": "[Format](https://www.dublincore.org/specifications/dublin-core/dcm\\\ni-terms/terms/format/) of this instance of the work.\n* `brf` - Braille Ready Format\n* `daisy` - [DAISY](https://daisy.org) digital talking book\n* `daisyAudio` - DAISY book with audio files\n* `epub` - EPUB digital document\n* `braille` - Braille formats that are not BRF (such as printed)\n* `pdf` - PDF\n* `word` - Microsoft Word\n* `tactile` - Tactile graphics\n* `kurzweil` - Kurzweil file format\n* `rtf` - Rich text format\n* `grayscalePdf` - [DEPRECATED] Use pdf instead.\n",
+                    "type": "string",
+                    "enum": [
+                        "brf",
+                        "daisy",
+                        "daisyAudio",
+                        "epub",
+                        "braille",
+                        "pdf",
+                        "grayscalePdf",
+                        "word",
+                        "tactile",
+                        "kurzweil",
+                        "rtf"
+                    ]
+                }
+            },
+            "required": [
+                "emma_repository",
+                "emma_repositoryRecordId",
+                "dc_format"
+            ]
+        }
+    ]
+}

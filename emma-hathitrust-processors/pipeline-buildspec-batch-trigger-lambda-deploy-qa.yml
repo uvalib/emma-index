@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+  pre_build:
+    commands:
+      - export LANG=en_US.UTF-8
+      - aws codecommit get-commit --repository-name emma-hathitrust-processors --commit-id $CODEBUILD_RESOLVED_SOURCE_VERSION
+      - pip3 install pipenv
+      - pipenv run python -m pip install --upgrade pip
+      - cd batch_trigger_lambda
+      - pipenv install -d
+      - mkdir -p deploy
+  build:
+    commands:
+      - pipenv run python make.py deploy_s3 all qa
+    on-failure: ABORT
+
+

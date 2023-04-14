@@ -1,0 +1,40 @@
+PUT /emma-federated-index/_doc/bookshare-1128647-brf
+{
+  "emma_recordId": "bookshare-1128647-brf",
+  "emma_titleId": "100002",
+  "emma_repository": "bookshare",
+  "emma_repositoryRecordId": "1128647",
+  "emma_retrievalLink": "https://www.bookshare.org/browse/book/1128647",
+  "emma_lastRemediationDate": "2019-02-02",
+  "emma_lastRemediationNote": "New EPUB3 file",
+  "emma_formatFeature": ["grade2", "ueb"],
+  "dc_title": "Alice's Adventures in Wonderland",
+  "dc_creator": "Lewis Carroll",
+  "dc_identifier": "isbn:9781460394939",
+  "dc_publisher": "Harlequin",
+  "dc_language": "en",
+  "dc_rights": "copyright",
+  "dc_description": "It's been 150 years since Lewis Carroll penned Alice's Adventures in Wonderland, and Harlequin TEEN is celebrating this anniversary with a special new release of the beloved classic that inspired Gena Showalter's New York Times bestselling series The White Rabbit Chronicles. Don't miss this exclusive ebook edition, complete with a sneak peek at Alice in Zombieland.Imagine a fantastical place where rabbits wear pocket watches, hatters throw mad tea parties, cats give directions and nonsense abounds. Welcome to Wonderland, a world discovered by Alice when she tumbles down a rabbit hole on a hot summer day. Armed with courage and wit, Alice must solve countless riddles, argue with a caterpillar, play croquet with a queen and face all manner of unusual adventures in order to find her way home again.",
+  "dc_subject": [
+    "bisac:JUV007000 JUVENILE FICTION / Classics",
+    "bisac:JUV037000 JUVENILE FICTION / Fantasy & Magic",
+    "bisac:JUV016000 JUVENILE FICTION / Historical / General",
+    "bisac:JUV016130 JUVENILE FICTION / Historical / Other",
+    "bookshare:History",
+    "bookshare:Science Fiction and Fantasy",
+    "bookshare:Literature and Fiction",
+    "bookshare:Children's Books",
+    "bookshare:Teens"
+  ],
+  "dc_format": "brf",
+  "dc_type": "text",
+  "dcterms_dateAccepted": "2015-03-05",
+  "dcterms_dateCopyright": "1865",
+  "s_accessibilityFeature": "braille",
+  "s_accessibilityControl": "fullKeyboardControl",
+  "s_accessibilityHazard": [
+    "noFlashingHazard",
+    "noMotionSimulationHazard",
+    "noSoundHazard"
+  ]
+}

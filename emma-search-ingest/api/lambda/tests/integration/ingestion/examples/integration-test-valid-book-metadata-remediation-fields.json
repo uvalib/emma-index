@@ -1,0 +1,69 @@
+{
+  "emma_repository": "bookshare",
+  "emma_repositoryRecordId": "2",
+  "emma_retrievalLink": "https://www.bookshare.org/not/a/real/book",
+  "rem_remediationDate": "2021-08-23",
+  "rem_comments": "New BRF file",
+  "emma_formatFeature": [
+    "grade1",
+    "ueb"
+  ],
+  "emma_version": "2nd Edition",
+  "emma_workType": "book",
+  "dc_title": "Bookshare Unified Search Remediated Record Test Book",
+  "dc_creator": [
+    "Regression Tester"
+  ],
+  "dc_identifier": [
+    "isbn:9788665654141",
+    "doi:10.1234dfjsldjlslfk",
+    "doi:https://doi.org/10.1234dfjsldjlslfk"
+  ],
+  "dc_publisher": "Beneficient Technologies",
+  "dc_language": [
+    "eng"
+  ],
+  "dc_rights": "copyright",
+  "dc_description": "This is a test book and does not refer to any real work anywhere.",
+  "dc_subject": [
+    "bisac:JUV000000 JUVENILE FICTION / General",
+    "bisac:JUV037000 JUVENILE FICTION / Fantasy & Magic",
+    "bisac:JUV030050 JUVENILE FICTION / People & Places / Europe",
+    "bisac:JUV035000 JUVENILE FICTION / School & Education",
+    "bookshare:Education",
+    "bookshare:Science Fiction and Fantasy",
+    "bookshare:Literature and Fiction",
+    "bookshare:Children's Books",
+    "bookshare:Teens"
+  ],
+  "dc_format": "brf",
+  "dcterms_dateAccepted": "2015-11-13",
+  "s_accessibilityFeature": [
+    "braille"
+  ],
+  "s_accessibilityControl": [
+    "fullKeyboardControl"
+  ],
+  "s_accessibilityHazard": [
+    "noFlashingHazard",
+    "noMotionSimulationHazard",
+    "noSoundHazard"
+  ],
+  "rem_source": "publisher",
+  "rem_metadataSource": [
+    "Source of remediation metadata"
+  ],
+  "rem_remediatedBy": [
+    "Fred Remediator"
+  ],
+  "rem_complete": false,
+  "rem_coverage": "Chapters 2-5",
+  "rem_remediatedAspects": [
+    "proofreadCorrectedOcr",
+    "addedBookmarks",
+    "taggedPdf",
+    "addedImageDescriptions"
+  ],
+  "rem_textQuality": "proofread",
+  "rem_status": "remediated"
+}

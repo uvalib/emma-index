@@ -1,0 +1,19 @@
+{
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "name",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "emma_bookshare_loader_hathi_dev",
+        "KeySchema": [
+            {
+                "AttributeName": "name",
+                "KeyType": "HASH"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        }
+}
