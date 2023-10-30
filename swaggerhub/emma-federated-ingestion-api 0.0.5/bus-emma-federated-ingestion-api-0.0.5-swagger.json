@@ -1,0 +1,267 @@
+{
+  "openapi" : "3.0.0",
+  "info" : {
+    "description" : "API for submitting metadata to the EMMA Federated Search Index",
+    "version" : "0.0.5",
+    "title" : "EMMA Federated Index Ingestion API",
+    "contact" : {
+      "email" : "bookshare-developers@benetech.org"
+    },
+    "license" : {
+      "name" : "TBD"
+    }
+  },
+  "tags" : [ {
+    "name" : "ingestion",
+    "description" : "Operations on metadata submitted to EMMA federated search index"
+  } ],
+  "paths" : {
+    "/records" : {
+      "put" : {
+        "tags" : [ "ingestion" ],
+        "summary" : "Inserts or updates metadata records in the search index",
+        "operationId" : "upsertRecords",
+        "description" : "Inserts, or updates one or more metadataRecords in the search index.  For the upsert operation, if no such record exists for the emma_repository, emma_repositoryRecordId, dc_format, and emma_formatVersion, a record is created.  Otherwise the existing record is updated. emma_formatVersion is optional.  The number of records to be updated at once is capped at 1000.",
+        "responses" : {
+          "202" : {
+            "description" : "Items accepted for update."
+          },
+          "207" : {
+            "description" : "Some items inserted or updated",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid input",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/IngestionRecordList"
+              }
+            }
+          },
+          "description" : "Ingestion metadata record"
+        }
+      }
+    },
+    "/recordGets" : {
+      "post" : {
+        "tags" : [ "ingestion" ],
+        "summary" : "Retrieves metadata records in the search index",
+        "operationId" : "getRecords",
+        "description" : "Retrieves one or more metadataRecords in the search index. Records are uniquely identified by the emma_repository, emma_repositoryRecordId, dc_format, and emma_formatVersion.  emma_formatVersion is optional.  The number of records to be retrieved at once is capped at 1000.",
+        "responses" : {
+          "200" : {
+            "description" : "Items retrieved",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "May be returned by upsert operation.  List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/MetadataRecord"
+                  }
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid input",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/IdentifierRecordList"
+              }
+            }
+          },
+          "description" : "Metadata identifier record"
+        }
+      }
+    },
+    "/recordDeletes" : {
+      "post" : {
+        "tags" : [ "ingestion" ],
+        "summary" : "Deletes metadata records in the search index",
+        "operationId" : "deleteRecords",
+        "description" : "Deletes one or more metadataRecords in the search index. Records are uniquely identified by the emma_repository, emma_repositoryRecordId, dc_format, and emma_formatVersion.  emma_formatVersion is optional.   The number of records to be deleted at once is capped at 1000.",
+        "responses" : {
+          "202" : {
+            "description" : "Items accepted for deletion.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "If applicable, a list of \"not found\" records that could not be deleted will appear in the result body.  Otherwise the result body will be empty.",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "207" : {
+            "description" : "Some items deleted",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "May be returned by upsert or delete operation.  List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400" : {
+            "description" : "Invalid input",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "description" : "List of errors, mapped to the numbered metadata record in the order received",
+                  "type" : "object",
+                  "additionalProperties" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/IdentifierRecordList"
+              }
+            }
+          },
+          "description" : "Metadata identifier record"
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "IngestionRecordList" : {
+        "title" : "Metadata ingestion record list request",
+        "description" : "List of metadata ingestion records",
+        "type" : "array",
+        "items" : {
+          "$ref" : "#/components/schemas/IngestionRecord"
+        }
+      },
+      "IdentifierRecordList" : {
+        "title" : "List of identifier records",
+        "description" : "List of metadata record identifiers",
+        "type" : "array",
+        "items" : {
+          "$ref" : "#/components/schemas/IdentifierRecord"
+        }
+      },
+      "IngestionRecord" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/IngestionRecord"
+      },
+      "IdentifierRecord" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/IdentifierRecord"
+      },
+      "MetadataRecord" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/MetadataRecord"
+      },
+      "MetadataCommonRecord" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/MetadataCommonRecord"
+      },
+      "EmmaRecordIdentifier" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/EmmaRecordIdentifier"
+      },
+      "EmmaRepository" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/EmmaRepository"
+      },
+      "EmmaRepositoryRecordId" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/EmmaRepositoryRecordId"
+      },
+      "EmmaFormatVersion" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/EmmaFormatVersion"
+      },
+      "DublinCoreFormat" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/DublinCoreFormat"
+      },
+      "PublicationIdentifier" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/PublicationIdentifier"
+      },
+      "PeriodicalIdentifier" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/PeriodicalIdentifier"
+      },
+      "RemediationFields" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/RemediationFields"
+      },
+      "PeriodicalFields" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/PeriodicalFields"
+      },
+      "SchemaOrgFields" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/SchemaOrgFields"
+      },
+      "EmmaCommonFields" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/EmmaCommonFields"
+      },
+      "DublinCoreFields" : {
+        "$ref" : "https://api.swaggerhub.com/domains/bus/emma-federated-shared-components/0.0.5#/components/schemas/DublinCoreFields"
+      }
+    }
+  }
+}
